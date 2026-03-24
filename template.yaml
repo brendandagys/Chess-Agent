@@ -1,0 +1,110 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  chess-agent
+
+  LangChain Chess Agent – HTTP API with Pinecone vector store and S3 ingestion pipeline
+
+Globals:
+  Function:
+    Timeout: 60
+    Runtime: python3.13
+    Architectures:
+      - arm64
+    LoggingConfig:
+      LogFormat: JSON
+    Environment:
+      Variables:
+        PINECONE_API_KEY: !Ref PineconeApiKey
+        PINECONE_INDEX_NAME: !Ref PineconeIndexName
+        DOCUMENT_BUCKET: !Sub "${AWS::StackName}-documents"
+
+Parameters:
+  PineconeApiKey:
+    Type: String
+    NoEcho: true
+    Description: Pinecone API key
+  PineconeIndexName:
+    Type: String
+    Default: chess-agent
+    Description: Name of the Pinecone index
+
+Resources:
+  # ---- Analyze (Agent) Lambda ----
+  AnalyzeFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: analyze/
+      Handler: app.lambda_handler
+      MemorySize: 2048 # Engine seems to use ~500 MB
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action:
+                - "bedrock:InvokeModel"
+              Resource:
+                - !Sub "arn:aws:bedrock:${AWS::Region}::foundation-model/amazon.titan-embed-text-v2:0"
+      Events:
+        AnalyzeApi:
+          Type: Api
+          Properties:
+            Path: /analyze
+            Method: post
+
+  # ---- Ingestion Lambda ----
+  IngestionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ingestion/
+      Handler: app.lambda_handler
+      MemorySize: 256
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Sub "${AWS::StackName}-documents"
+        - Statement:
+            - Effect: Allow
+              Action:
+                - "bedrock:InvokeModel"
+              Resource:
+                - !Sub "arn:aws:bedrock:${AWS::Region}::foundation-model/amazon.titan-embed-text-v2:0"
+      Events:
+        S3Upload:
+          Type: S3
+          Properties:
+            Bucket: !Ref DocumentBucket
+            Events: s3:ObjectCreated:*
+
+  # ---- S3 Document Bucket ----
+  DocumentBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${AWS::StackName}-documents"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+Outputs:
+  AnalyzeApiEndpoint:
+    Description: HTTP API endpoint URL
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/analyze"
+  AnalyzeFunction:
+    Description: Analyze (Agent) Lambda Function ARN
+    Value: !GetAtt AnalyzeFunction.Arn
+  AnalyzeFunctionIamRole:
+    Description: IAM Role for Analyze Lambda
+    Value: !GetAtt AnalyzeFunctionRole.Arn
+  IngestionFunction:
+    Description: Ingestion Lambda Function ARN
+    Value: !GetAtt IngestionFunction.Arn
+  DocumentBucketName:
+    Description: S3 bucket for document uploads
+    Value: !Ref DocumentBucket
+  PineconeIndexName:
+    Description: Pinecone index name
+    Value: !Ref PineconeIndexName
