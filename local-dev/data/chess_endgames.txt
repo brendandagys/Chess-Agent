@@ -1,0 +1,67 @@
+CHESS ENDGAMES
+
+Endgame technique is the foundation of chess mastery. Unlike the opening and middlegame, endgames can be analyzed to near-perfect precision. The key principle: activate your king immediately in the endgame.
+
+KING AND PAWN ENDGAMES
+
+The King's Role
+The king becomes a powerful fighting piece in the endgame. It must be centralized and activated as quickly as possible. Passive king play is one of the most common endgame mistakes.
+
+Opposition
+Two kings are in opposition when they face each other with one square between them. The side NOT to move has the opposition. Holding the opposition is critical in king-and-pawn endings to either promote a pawn or prevent the opponent from doing so.
+
+Key Squares
+Each pawn has three key squares (on the 6th rank for most pawns) that, if the attacking king reaches, guarantee promotion regardless of the defending king's position. Knowing key squares is essential for evaluating king-and-pawn endings quickly.
+
+Distant Opposition and Corresponding Squares
+In complex king-and-pawn endings, kings may need to maintain distant opposition (separated by 3 or 5 squares). The concept of corresponding squares generalizes this to complex multi-pawn positions.
+
+Zugzwang
+A position where the player to move is at a disadvantage because any move worsens their position. Common in king-and-pawn endings: the Trebuchet (mutual zugzwang) is a famous example where whoever moves loses.
+
+Breakthrough
+When a player has three vs two or four vs three pawns on the same flank, a breakthrough combination may force a promotion: advance the middle pawn, sacrifice it, and promote one of the wing pawns.
+
+ROOK ENDGAMES
+
+Rook endgames are the most common endgame type. They are notoriously difficult.
+
+Lucena Position
+The winning technique for rook and pawn vs rook when the pawn is not a rook pawn. The attacking king shelters on the pawn, then the rook builds a "bridge" to cut off checks. Method: 1) Advance king to d7/e7 with pawn on d6/e6, 2) Place rook on d1/e1, 3) Build the bridge by using the rook to shield the king from checks.
+
+Philidor Position
+The drawing technique for the defender. Place the rook on the 6th rank (or 3rd if attacked from behind), cutting off the attacking king. Once the pawn advances to the 6th, move the rook to the back rank and give perpetual checks from the rear.
+
+Rook Behind the Passed Pawn
+Place your rook behind a passed pawn (yours or your opponent's). Your rook gains power as the pawn advances; behind an enemy passer, your rook checks it with every move.
+
+Seventh Rank Rooks
+A rook on the seventh rank attacks the opponent's unmoved pawns and often restricts the king. Two rooks on the seventh rank (pigs on the seventh) are devastating.
+
+Cutting Off the King
+In rook endgames, use your rook to cut off the opposing king by rank or file, preventing it from approaching your passed pawn.
+
+MINOR PIECE ENDGAMES
+
+Bishop vs Bishop (Same Color)
+Often drawn if pawns are blocked on the same color as the bishops, giving the superior side no way to make progress. The defending side should keep pawns on the bishop's color.
+
+Bishop vs Bishop (Opposite Color)
+Extremely drawish even with an extra pawn or two. The attacking player cannot convert unless there is a passed pawn the bishop can control. Famous for defensive resources.
+
+Knight vs Bishop
+Knights are stronger in closed positions with pawns on both wings (complex structures); bishops are stronger in open positions and endgames with passed pawns on opposite wings where they cover long diagonals quickly.
+
+Good Bishop vs Bad Bishop
+A bishop hemmed in by its own pawns (which are on the same color) is a "bad bishop." A bishop with free diagonals is a "good bishop." Always strive to place your pawns on the opposite color to your bishop.
+
+QUEEN ENDGAMES
+Queens are powerful but complex in endings. Queen vs pawn endings depend on the pawn's position: rook or bishop pawns on the 7th rank can often draw by using stalemate tricks (especially a pawn on a7, c7, f7, h7 defended by a cornered king).
+
+PRACTICAL ENDGAME TIPS
+1. Activate your king first.
+2. Place rooks on open files and behind passed pawns.
+3. Create a passed pawn on the side where your pieces are more active.
+4. Know the Lucena and Philidor positions cold.
+5. In opposite-color bishop endings, look for stalemate resources if defending.
+6. Trade into won endings; avoid trading into drawn ones.

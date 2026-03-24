@@ -1,0 +1,67 @@
+CHESS STRATEGY AND POSITIONAL PLAY
+
+Strategy concerns the long-term plans and structural factors that guide piece placement and pawn moves. Tactics are the sparks; strategy provides the fuel.
+
+PAWN STRUCTURE
+
+Pawn structure is the backbone of any position. Because pawns cannot move backwards, every pawn move is permanent. Decisions about pawn structure define the character of the middlegame and endgame.
+
+Passed Pawn
+A pawn with no opposing pawns on its file or adjacent files to stop it. Passed pawns become stronger as the game progresses. Rooks belong behind passed pawns (yours or your opponent's).
+
+Isolated Pawn (IQP)
+A pawn with no friendly pawns on adjacent files. It can be a weakness (requires piece defense, gives the opponent a blockade square) but also a strength (the holder often has more active pieces and attacking chances). The IQP position arises frequently from the QGD and certain Sicilian lines.
+
+Doubled Pawns
+Two pawns of the same color on the same file. They can be a weakness (immobile, difficult to defend) but allow open files for rooks and give the bishop pair. Evaluate them contextually, not dogmatically.
+
+Backward Pawn
+A pawn that cannot advance because the adjacent pawns are further forward and no pawn can support it. Backward pawns on open files are serious long-term weaknesses.
+
+Pawn Majority
+Having more pawns than the opponent on one flank. A queenside pawn majority in an endgame is often decisive — advance it to create a passed pawn.
+
+PIECE ACTIVITY
+
+Outpost
+A square that cannot be attacked by enemy pawns. Place knights (and sometimes bishops) on central outposts. A knight on d5 or e5 that cannot be dislodged by pawns is extremely powerful.
+
+Good and Bad Pieces
+Always evaluate pieces in relation to the pawn structure. A knight on an outpost, a bishop commanding an open diagonal, a rook on an open file — these are "good" pieces. A knight on the rim, a bishop blocked by its own pawns, a rook behind its own pawn chain — these are "bad" pieces. Improve your worst-placed piece.
+
+The Bishop Pair
+Owning both bishops (while the opponent has bishop and knight, or two knights) is generally an advantage in open positions. The two bishops control all colors and cover the board quickly in endgames.
+
+Open and Half-Open Files
+Rooks belong on open files (no pawns of either color) or half-open files (no friendly pawns, but enemy pawns may be present). Doubling rooks on an open file or placing a rook on the seventh rank are key strategic goals.
+
+KING SAFETY
+
+In the middlegame, king safety is paramount. Common threats include:
+- Attacking a castled king with pieces and pawns.
+- Exploiting a weakened pawn cover (h3, g4, f6, etc.).
+- Opening the center before the king has castled.
+
+Pawn Storm
+Advancing pawns toward the opponent's castled king to open files for rooks and weaken pawn cover. Common when kings are castled on opposite sides — both players race to attack.
+
+Prophylaxis
+Preventing the opponent's plan before it is executed. A key strategic concept: ask yourself "What does my opponent want to do next?" and stop it.
+
+WEAK SQUARES AND HOLES
+
+A weak square is one that can be permanently occupied by an opponent's piece because no pawn can chase it. Avoid creating holes in front of your king or on important central and semi-central squares. Knights especially love holes.
+
+EXCHANGES AND TRANSITIONS
+
+Trade pieces when it improves your structure or activates your remaining pieces. Avoid trades when you have the better piece. Trade into endgames when you are up material. Keep pieces when you have the attacking advantage.
+
+Trading the Bishop for a Knight (Bishop for Knight Exchange)
+Trade your bishop for the opponent's knight when: it eliminates a powerful knight on an outpost, your remaining bishop faces a closed structure, or you need to reduce material in an endgame you can win.
+
+LONG-TERM PLANNING
+1. Identify your worst-placed piece and improve it.
+2. Identify the opponent's best-placed piece and challenge or trade it.
+3. Find your structural imbalances and play accordingly.
+4. Connect your plans: every move should serve your overall strategy or defend against the opponent's threat.
+5. Think in terms of pawn majorities, weak squares, open files, and king safety simultaneously.

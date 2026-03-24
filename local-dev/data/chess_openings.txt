@@ -1,0 +1,55 @@
+CHESS OPENINGS
+
+The opening phase of chess establishes piece development, central control, and king safety. Strong opening play follows three core principles: control the center, develop pieces quickly, and castle early.
+
+ITALIAN GAME (1.e4 e5 2.Nf3 Nc6 3.Bc4)
+One of the oldest openings. White aims the bishop at the f7 pawn and can transition into the Giuoco Piano (3...Bc5) or the Two Knights Defense (3...Nf6). The Giuoco Piano leads to positional play; the Two Knights invites sharper complications including the Fried Liver Attack after 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7.
+
+RUYLOPEZ / SPANISH GAME (1.e4 e5 2.Nf3 Nc6 3.Bb5)
+One of the most popular and deeply analyzed openings. White pins the knight defending e5 and pressures Black's center. Major variations include:
+- Morphy Defense: 3...a6 4.Ba4 Nf6 (the main line)
+- Berlin Defense: 3...Nf6 (very solid, frequently used at top level)
+- Marshall Attack: 3...a6 4.Ba4 Nf6 5.0-0 Be7 6.Re1 b5 7.Bb3 0-0 8.c3 d5 (a gambit for dynamic counterplay)
+
+SICILIAN DEFENSE (1.e4 c5)
+The most popular response to 1.e4. Black avoids symmetry and fights for queenside counterplay. White can enter open Sicilian lines with 2.Nf3 and 3.d4 cxd4, or choose Anti-Sicilians:
+- Najdorf Variation: ...a6, planning ...e5 or ...b5. Extremely double-edged.
+- Dragon Variation: ...g6 and ...Bg7. Tactical battles on opposite wings.
+- Scheveningen: ...e6 structure, solid and flexible.
+- Classical: ...Nc6 with ...d6, flexible piece setup.
+- Kan/Taimanov: ...a6 or ...Nc6 with an e6 pawn structure.
+
+FRENCH DEFENSE (1.e4 e6)
+Solid but somewhat passive. Black concedes the center temporarily and counterattacks with ...d5. Leads to closed, pawn-chain battles. Key variations:
+- Winawer: 3.Nc3 Bb4, attacking the knight supporting e4.
+- Classical: 3.Nc3 Nf6 4.Bg5, creating pinning pressure.
+- Advance: 3.e5, space-gaining but can be countered by ...c5 quickly.
+- Tarrasch: 3.Nd2, avoiding doubled pawns but less aggressive.
+
+CARO-KANN DEFENSE (1.e4 c6)
+Similar aims to the French but avoids hemming in the c8 bishop. After 2.d4 d5, Black has a solid pawn structure. Key lines:
+- Classical: 3.Nc3 dxe4 4.Nxe4 Bf5, developing the bishop before ...e6.
+- Advance: 3.e5, space-gaining similar to French Advance.
+- Fantasy Variation: 3.f3, aggressive but objectively questionable.
+
+QUEEN'S GAMBIT (1.d4 d5 2.c4)
+White offers a pawn to displace Black's central pawn. Most commonly declined:
+- QGD: 2...e6, solid and classical. Main line continues 3.Nc3 Nf6 4.Bg5.
+- QGA: 2...dxc4, accepting; Black can keep the pawn or return it for active play.
+- Slav Defense: 2...c6, supporting d5 without blocking the c8 bishop.
+- Semi-Slav: 2...c6 3.Nf3 Nf6 4.Nc3 e6, very complex and well-analyzed.
+
+KING'S INDIAN DEFENSE (1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 0-0)
+A hypermodern defense where Black lets White build a big center then attacks it. Main lines include the Classical (6.Be2), the Samisch (6.f3), and the Averbakh (6.Be2 e5 7.Be3). Black typically plays ...e5 and launches a kingside attack.
+
+ENGLISH OPENING (1.c4)
+A flexible flank opening. White controls d5 without committing to an early d4. Transposes frequently into QGD structures or leads to independent lines like the Symmetrical English (1...c5) or the Reversed Sicilian.
+
+NIMZO-INDIAN DEFENSE (1.d4 Nf6 2.c4 e6 3.Nc3 Bb4)
+Black pins the knight and targets White's center before it is established. After 4.e3 (Rubinstein Variation) or 4.Qc2 (Classical), complex imbalanced positions arise. Black's doubled c-pawns (after ...Bxc3) are offset by the bishop pair and active piece play.
+
+PRINCIPLES FOR OPENING STUDY
+1. Understand the pawn structure resulting from each opening.
+2. Know the typical middlegame plans for both sides.
+3. Learn the critical moves and why they are played rather than memorizing long lines.
+4. Tailor your opening repertoire to your style: tactical or positional.

@@ -1,0 +1,79 @@
+CHESS TACTICS
+
+Tactics are short sequences of moves that exploit immediate opportunities to win material or checkmate the opponent. Most chess games at all levels are decided by tactical oversights. Training pattern recognition is the fastest way to improve.
+
+THE FORCING MOVE HIERARCHY
+Always calculate checks, captures, and threats in that order. Forcing moves drastically reduce the number of variations you need to analyze.
+
+BASIC TACTICAL MOTIFS
+
+Fork
+A single piece attacks two or more enemy pieces simultaneously. The most common is the knight fork (due to the knight's unique movement), but any piece can give a fork.
+Example: Knight on c7 attacking king on e8 and rook on a8 simultaneously.
+Knight forks are particularly dangerous because knights cannot be blocked. Always watch for knight outpost squares like d5, e5, c5, f5 that could deliver a fork.
+
+Pin
+A piece is pinned when moving it would expose a more valuable piece to capture. An absolute pin fixes a piece in front of the king (illegal to move); a relative pin is against a lesser piece.
+Strategy: Attack a pinned piece with pawns or lesser pieces to win material. Defenders should try to break or exploit pins by attacking the pinning piece.
+
+Skewer
+The opposite of a pin. A valuable piece is attacked, and when it moves, a lesser piece behind it is captured. A common motif: rook skewers an enemy king on the back rank, winning the queen behind it.
+
+Discovery (Discovered Attack)
+Moving one piece reveals an attack by another piece behind it. Extremely powerful because the moving piece can make a threat of its own while unveiling the battery. A discovered check is even stronger.
+
+Double Check
+A discovered check where both the moving piece and the revealed piece give check simultaneously. The only legal response is to move the king. Double checks are the most forcing moves in chess.
+
+Removing the Defender (Undermining)
+Capture or drive away a piece that is defending another piece or a critical square. After the defender is removed, take what it was guarding.
+
+Overloading
+A piece is tasked with defending two things at once. Attack both targets so that saving one means losing the other. Common in endgames and complex middlegame positions.
+
+Deflection
+Force an opponent's piece off a key defensive square or file/rank by sacrificing material. After deflection, execute the combination.
+
+Decoy (Luring)
+Sacrifice material to lure an opponent's piece to a square where it becomes vulnerable to a follow-up tactic (fork, pin, skewer, checkmate).
+
+Interference
+Place a piece between two enemy pieces that are cooperating (e.g., two rooks defending each other on an open file) to disrupt their coordination.
+
+X-Ray (Transparency)
+A piece exerts influence through an opponent's piece. Useful for calculating rook, bishop, and queen attacks that seem blocked.
+
+CHECKMATE PATTERNS
+
+Back Rank Mate
+The king is trapped on the first or last rank. A rook or queen delivers checkmate. Prevent it by creating a luft (escape square) with g3/h3 or g6/h6. Always watch for back rank weaknesses when your opponent's rooks are active.
+
+Smothered Mate
+A knight delivers checkmate to a king smothered by its own pieces. Classic pattern: knight on f7 or c7 with the king cornered and unable to move.
+
+Scholar's Mate
+Qh5 + Bc4 threatening Qxf7#. Easily defended but often catches beginners. Illustrates the importance of protecting f7/f2.
+
+Arabian Mate
+A rook and knight work together: rook controls one rank/file, knight blocks the king's escape squares.
+
+Anastasia's Mate
+Rook on an open file, knight on e7 (or e2), with the opponent's king trapped on the h-file.
+
+Boden's Mate
+Two bishops on criss-crossing diagonals deliver checkmate after a queen sacrifice opens lines. Usually involves a sacrificed queen on a6 or c6.
+
+Opera Mate
+Rook delivers checkmate on the back rank while a bishop cuts off the king's escape. From Paul Morphy's famous game (Opera Game, 1858).
+
+COMBINATION THINKING PROCESS
+1. Scan for candidate moves: checks, captures, threats.
+2. Identify the opponent's weaknesses: undefended pieces, exposed king, overloaded defenders.
+3. Calculate forcing lines to their conclusion before playing.
+4. Look for the "quiet move" — a non-obvious strong move that sets up an unstoppable threat.
+
+PRACTICAL TRAINING ADVICE
+- Solve tactics puzzles daily (Lichess puzzles, Chess Tempo, etc.).
+- Practice visualizing knight moves — they are the hardest to see.
+- When calculating, say to yourself: "What is my opponent's best response?"
+- Review your lost games for tactical shots you missed (your opponent's) and ones you missed (your own).
