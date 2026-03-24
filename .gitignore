@@ -246,3 +246,4 @@ $RECYCLE.BIN/
 .aws-sam/
 AGENTS.md
 faiss_index/
+extras/
