@@ -1,0 +1,29 @@
+[Event "Hastings"]
+[Site "Hastings ENG"]
+[Date "1895.08.19"]
+[EventDate "1895.08.05"]
+[Round "11"]
+[Result "1-0"]
+[White "Emanuel Lasker"]
+[Black "Isidor Gunsberg"]
+[ECO "C11"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "61"]
+
+1.e4 {Notes by H. N. Pillsbury} e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7
+5.f4 c5 6.dxc5 Bxc5 {Nc6 is superior.} 7.Qg4 O-O 8.Bd3 f5
+9.Qh3 Nc6 10.g4 Qe7 11.gxf5 Nb4 12.Nf3 {White avoids wisely
+the complications arising from 12 fxe6 Nxd3+ 13 cxd3 Nxe5 14
+fxe5 Bxe6 as Black appears to obtain too strong an attack for
+the sacrificed Piece.} exf5 13.a3 {13 Bxf5 Rxf5 14 Qxf5 Nf8
+followed by Nxc2+, would have given Black a winning
+superiority.} Nxd3+ 14.cxd3 Nf6 15.Qg2 d4 {Rd8, followed soon
+by Ne8, would be better. The text loses at least a Pawn.}
+16.Ne2 Nh5 {It would be better to retreat this Knight to
+e8. It is loosely placed at h5.} 17.Rg1 a5 {g6 was absolutely
+necessary to save the Knight.} 18.Qh3 Qe8 19.Rg5 h6 20.Rxh5
+Qg6 21.Bd2 Bd7 22.Kf2 Be8 23.Rh4 Be7 24.Rg1 Bxh4+ {Black
+recovers the exchange for his lost Piece, but it is not
+enough.} 25.Qxh4 Qa6 26.Nfxd4 Kh7 27.Bc3 Qxd3 28.Ne6 Rg8
+29.Ng5+ Kg6 30.e6 h5 31.Nf7+ 1-0

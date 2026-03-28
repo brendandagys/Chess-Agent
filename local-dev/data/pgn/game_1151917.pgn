@@ -1,0 +1,45 @@
+[Event "Ostend-B"]
+[Site "Ostend BEL"]
+[Date "1907.05.21"]
+[EventDate "?"]
+[Round "5"]
+[Result "0-1"]
+[White "Louis van Vliet"]
+[Black "Eugene Aleksandrovich Znosko-Borovsky"]
+[ECO "D00"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "72"]
+
+1.d4 {Notes by Nimzowitsch} d5 2.e3 c5 3.c3 e6 4.Bd3 Nc6 5.f4
+{The stonewall, a very close opening.} Nf6 6.Nd2 Qc7 7.Ngf3
+{Overlooks the threat involved in...Qc7; 7.Nh3 followed by Qf3
+would have been the better course.} cxd4 {!} 8.cxd4
+{Positionally the right move here would usually be exd4 (White
+then has the King file with an outpost station at e5, while
+the Pawn at c3 closes the opponents c-file), but here this
+move would lose a Pawn: 8.exd4 Qxf4. Nevetherless it was
+preferable to the text move; for 8.exd4 Qxf4 9.Nc4 Qc7 (...Qg4
+10.Ne3!); 10.Nce5 Bd6 11.Qe2 and White has a fairly well
+protected outpost in the King file, which Black cannot disturb
+even by Black cannot disturb even by 11...Bxe5 12.dxe5 Nd7
+13.Bf4 f6?; for then 14.exf6 Qxf4 15.fxg7 Rg8 16.Qxe6+ would
+win for White. So long as the King file with the outpost
+Knight at e5, or its full equivalent, a Pawn at e5 (after Pawn
+recaptures), remains in White's possession he stands
+excellently, despite the Pawn minus.} Nb4 9.Bb1 Bd7 10.a3 Rc8
+{! It is only by this subtle Rook move that the somewhat
+beginner-like Knight maneuver gets a meaning.} 11.O-O Bb5
+12.Re1 Nc2 13.Bxc2 Qxc2 14.Qxc2 Rxc2 {The 7th rank, seconded
+by the Bishop's diagonal b5 to f1 and the point e4 for the
+Knight.} 15.h3 Bd6 16.Nb1 Ne4 {No outpost in our sense (the
+open file behind is wanting); but a good sustitute.} 17.Nfd2
+Bd3 18.Nxe4 Bxe4 {18...dxe4 with the Bishop established at d3
+would also have been good.} 19.Nd2 Kd7 20.Nxe4 dxe4 21. Rb1
+Rhc8 22.b4 R8c3 23.Kf1 Kc6 {!} 24.Bb2 Rb3 25.Re2 Rxe2 26.Kxe2
+Kb5 27.Kd2 Ka4 28.Ke2 a5 {The decisive breakthrough. The
+position of Black's Rook, holding the White e-Pawn under a
+continual threat, was also too strong to be withstood. The
+rest is readily understandable.} 29.Kf2 axb4 30.axb4 Kxb4
+31.Ke2 Kb5 32.Kd2 Ba3 33.Kc2 Rxb2+ 34.Rxb2+ Bxb2 35.Kxb2 Kc4
+36.Kc2 b5 0-1

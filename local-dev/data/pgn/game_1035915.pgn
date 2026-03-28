@@ -1,0 +1,36 @@
+[Event "Hastings"]
+[Site "Hastings ENG"]
+[Date "1895.08.06"]
+[EventDate "1895.08.05"]
+[Round "2"]
+[Result "1-0"]
+[White "Isidor Gunsberg"]
+[Black "Amos Burn"]
+[ECO "C01"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "105"]
+
+1.e4 {Notes by C. Von Bardeleben.} e6 2.d4 d5 3.exd5 exd5
+4.Nf3 Nf6 5.Bd3 Bd6 6.O-O O-O 7.Nc3 c6 8.Ne2 Nbd7 9.Ng3 Re8
+10.Nf5 Bc7 11.Bg5 {I prefer 11 Nf3h4 Nf8 12 Qf3.} Nf8 12.Qd2
+Bxf5 13.Bxf5 Qd6 {! By this move Black obtains an attack.}
+14.Bh4 Ne4 15.Qd3 g6 16.Bh3 f5 17.Bg3 f4 18.Bh4 h6 19.Ne5 Bb6
+{If ...g5 white answers 20 f3.} 20.Kh1 {White cannot avoid
+material loss. Bad would be 20 c3 because of ...g5 21 f3 gxh4
+22 fxe4 Qxe5 winning a piece.} Bxd4 {! Now ...g5 would be
+inefficacious on account of 21 f3.} 21.Nxc6 Bg7 22.Ne7+ {White
+cannot save the piece for if he plays 22 Na5 there follows
+Nc5! 23 Qf3 g5 24 Rad1 Ne4 25 Nxb7 Qc6 26 Na5 Qb5 and black
+wins a piece.} Rxe7 23.Bxe7 Qxe7 24.Qxd5+ Kh7 25.f3 Ng5 {Black
+should have played ...Nf6 26 Qb3 Re8 or 26 Qd2 Rd8 27 Qf2 Qb4
+28 c3 Qc4 again ...Ng5 is not good because White with his
+following move occupies the king's file.} 26.Rae1 Qc7 27.Re2
+Rd8 28.Qb3 Nxh3 29.gxh3 Rd6 30.Rfe1 Rd7 31.Re8 Qd6 32.c4 Qf6
+33.c5 Qh4 {...Qc6 was much better.} 34.Qb4 Rf7 35.Qb3 Qf6
+36.Qd5 g5 37.b4 Ng6 38.b5 Qf5 39.Qxf5 Rxf5 40.Rc1 Bb2 {Black
+ought to have played ...Rf7 instead; 41 Rc8 Be5 42 c6 bxc6 43
+bxc6 Ne7 44 Ra8 Nd5.} 41.Rc2 Bd4 42.Rd2 Bxc5 {Disastrous; the
+best move was ...Bg7.} 43.Rd7+ Ne7 44.Rexe7+ Kg6 45.Re6+ Kh5
+46.Rh7 Bf8 47.a4 Rd5 48.Rf6 Rd8 49.Kg2 b6 50.Kf1 Re8 51.Rh8
+Bg7 52.Rfxh6+ Bxh6 53.Rxe8 1-0

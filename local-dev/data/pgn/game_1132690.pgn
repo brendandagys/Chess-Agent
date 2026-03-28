@@ -1,0 +1,34 @@
+[Event "Hastings"]
+[Site "Hastings ENG"]
+[Date "1895.08.30"]
+[EventDate "1895.08.05"]
+[Round "19"]
+[Result "0-1"]
+[White "Georg Marco"]
+[Black "Wilhelm Steinitz"]
+[ECO "C72"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "74"]
+
+1. e4 {Notes by C. von Bardeleben} e5 2. Nf3 Nc6 3. Bb5 a6
+4. Ba4 d6 5. O-O Ne7 {I prefer Nf6 here} 6. c3 g6 7. d4 Bd7
+8. Be3 Bg7 9. dxe5 dxe5 10. Nbd2 {Black being very cramped
+rightly sacrifices a Pawn in order to get an easier game.} O-O
+11. Re1 Nc8 12. Bc5 Re8 13. Nf1 b6 14. Ba3 N8a7 15. Qd3 Bc8
+16. Qe2 Bb7 17. Ne3 b5 18. Bc2 b4 19. Bxb4 Nxb4 20. cxb4 Nb5
+21. Qc4 {A weak move, which loses at once the gained
+Pawn. Better would he 21 Nc4, to plant the Knight a5.} Nd6
+22. Qb3 Nxe4 23. Rad1 Nd6 24. Nd5 {Nd2 would be better.} e4
+25. Nd2 Bxd5 26. Qxd5 e3 {!} 27. Rxe3 Rxe3 28. fxe3 Rb8 {If
+Bxb2 then 29 Nc4.} 29. Nc4 Rxb4 30. Bb3 {With 30 Nxd6 cxd6 31
+Qxd6 Qxd6 32 Rxd6 Rxb2 33 Bb3 the game would have ended in a
+draw. The move 30 Bb3 is somewhat dangerous.} Rb5 31. Qc6 Bf8
+{!} 32. Qxa6 Qg5 33. Rf1 Nxc4 34. Bxc4 Qxe3+ 35. Kh1 Rf5
+36. Ra1 {? A very weak move, after which the game of the first
+player becomes hopeless. Black has in any case the better
+game, but White could escape with a draw, perhaps, if he
+played 36 Rxf5 gxf5 37 h3 Bc5 38 Kh2 Qg1+ 39 Kg3 Qf2+ 40 Kh2
+Bd6+ 41 Kh1 Qe1+ 42 Bf1 Qg3 43 Kg1, etc.} Bd6 37. Bf1 {White
+cannot save the game; if 37 h3, then Qg3, and Black wins.}
+Bxh2 0-1

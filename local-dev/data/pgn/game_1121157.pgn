@@ -1,0 +1,59 @@
+[Event "Lasker - Schlechter World Championship Match"]
+[Site "Vienna AUH"]
+[Date "1910.01.07"]
+[EventDate "?"]
+[Round "1"]
+[Result "1/2-1/2"]
+[White "Carl Schlechter"]
+[Black "Emanuel Lasker"]
+[ECO "C66"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "138"]
+
+1. e4 {Notes by J. R. Capablanca} e5 2. Nf3 Nc6 3. Bb5 Nf6
+4. O-O d6 5. d4 Bd7 6. Re1 exd4 7. Nxd4 Be7 8. Nc3 O-O 9. Bxc6
+bxc6 10. Bg5 Re8 11. Qf3 h6 12. Bh4 Nh7 13. Bxe7 Qxe7 14. Rad1
+Nf8 15. h3 Ng6 {15...Qg5 at this point might be considered}
+16. Qg3 Qg5 17. Qxg5 hxg5 {White's game is very sold. His
+position is unassailable, while Black has two doubled pawns,
+still the advance is not enough to win and with careful play
+Black can easily draw.} 18. f3 f6 19. Kf2 Kf7 20. Nde2 a5 $1
+21. b3 Reb8 $5 22. Nc1 Be6 23. Nd3 c5 24. Nb2 Ne5 {24...c4
+would be to risky as White would play 25.Nxc4 Bxc4 26.bxc4 Rb4
+27.Rd4 Ne5 28.Nd5 Rb2 29.Nxc7, and if instead of 28...Rb2,
+28...Rxc4 then 29.Rxc4 Nxc4 30.Nxc7 Rb8 31.Re2 and White would
+be a pawn to the good.} 25. Nd5 Rb7 26. Re3 Nc6 27. Rc3 $2 g6
+{With this move Black starts an advance of the kingside pawns
+which is ill-judged as it finally leaves White with a passed
+pawn. He might have tried 27...Nb4 and if 28.a3 Nxd5 29.exd5
+Bd7, and it seems as though Black could draw easily.} 28. a4
+f5 $16 29. Ne3 Re8 30. Nec4 $16 Ra7 31. Re1 $1 Bxc4 $2
+32. Nxc4 $1 Kf6 $1 $10 33. Ne3 Ne5 34. exf5 gxf5 35. g3 $16
+35... Rh8 36. f4 gxf4 37. Nd5+ {The way White nurses the
+advantage obtained through the advancing of Black's kingside
+pawns is very instructive.} 37... Kf7 38. Nxf4 Rb7 {Since
+White has a passed pawn on the kingside, Black tries to make a
+break on the queenside, but this adventure nearly proved
+fatal.} $1 39. Kg2 $15 39... c4 $1 40. bxc4 Rb4 41. c5 Rxa4
+42. cxd6 cxd6 43. Rc7+ Kf6 $17 44. Nd5+ Kg5 {If 44...Ke6 45.c4
+Re8 46.Ra7 and White would win the exchange.} 45. h4+ Kh6 {If
+45...Kg6 46.Ne7+ Kf6 47.Rf1.} 46. Ne7 Rf8 47. Rd1 Rf7 {Black
+is forced to give up the pawn. 47...Nc4 would not do, as White
+would simply move 48.Kf2, threatening 49.Rd4 winning. Lasker
+here gets out of a very tight place, on the face of it, it
+looks as if White should win.} $2 48. Rxd6+ Kh7 49. Re6 Ng6 $1
+50. Rxg6 Rxe7 51. Rgc6 Rxc7 52. Rxc7+ Kg6 53. Rc6+ Kf7 $18
+54. Kf3 {Up to this point White has played the game well nigh
+perfectly, but has Schechter really missed a chance here? The
+situation is remarkable; Schechter plays the natural move, but
+it only draws. I believe the best move 54.c3! and that if
+there is a win, it must be through this move at this
+point. The ending is worth studying. It is a most instructive
+stuy on rook and pawn play.} 54... Re4 {A fine move. Lasker
+shows his masterly hand. By sacrificing a second pawn he draws
+the game.} 55. Rc5 $2 Kf6 56. Rxa5 Rc4 57. Ra6+ Ke5 58. Ra5+
+Kf6 59. Ra6+ Ke5 60. Ra5+ Kf6 61. Ra2 Ke5 62. Rb2 Rc3+ 63. Kg2
+Kf6 64. Kh3 Rc6 {To stop 65.Rb6+. 64...f4 would not do, on
+account of 65.Rb3!} 65. Rb8 Rxc2 66. Rb6+ Kg7 67. h5 Rc4
+68. h6+ Kh7 69. Rf6 Ra4 1/2-1/2

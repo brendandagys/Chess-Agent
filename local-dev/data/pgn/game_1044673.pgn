@@ -1,0 +1,41 @@
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi YUG"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "10.1"]
+[Result "0-1"]
+[White "Viktor Korchnoi"]
+[Black "Robert James Fischer"]
+[ECO "E97"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "62"]
+
+1. d4 {Notes by Bobby Fischer} Nf6 2. c4 g6 3. Nc3 Bg7 4. e4
+d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8. d5 Ne7 9. Nd2 {This move
+is apparently considered best by the Russians. In the "Turner
+Mira" 1970, Petrosian played 9 b4 Nh5 10 Nd2!? Nf4 11 a4, but
+without great success against Gligoric.} c5 {I think this is a
+logical move. Black takes a tempo from his King side play to
+slow down White's Queen side initiative which usually comes
+quite quickly with b4, c5, etc.} 10. a3 Ne8 11. b4 b6 12. Rb1
+f5 {! Having made all the necessary precautions on the Queen's
+side Black is now ready to attack on the King's flank.} 13. f3
+{Maybe better is 13 Nb3 as in the game Gligoric-Tringov,
+Belgrade, 1969.} f4 14. a4 g5 15. a5 Rf6 {!} 16. bxc5 {? This
+is, as Korchnoi pointed out afterwards, a "terrible mistake"
+because now it is impossible for White to get any initiative
+on the Queen side.} bxc5 17. Nb3 Rg6 18. Bd2 Nf6 {or ...h5!}
+19. Kh1 g4 {Maybe more exact was 19...h5} 20. fxg4 {Forced
+because of the threat of 20...g3 and then white cannot play 21
+h3 because of 21...Bxh3 etc.} Nxg4 21. Rf3 {? 21 Bf3! was
+better, with a more tenacious defence..} Rh6 22. h3 Ng6
+23. Kg1 Nf6 24. Be1 Nh8 {!! This attacking manouver is
+decisive.} 25. Rd3 Nf7 26. Bf3 {h4!? held out a little
+longer.} Ng5 27. Qe2 Rg6 28. Kf1 {Or 28 Kh2 Qd7 threatens
+29...Nxh3 etc.} Nxh3 29. gxh3 Bxh3+ 30. Kf2 {At this moment my
+hand hovered over White's Pawn on e4, but at the last second I
+realized that 30...Nxe4 is answered by 31 Qxe4 and White
+wins.} Ng4+ 31. Bxg4 Bxg4 {And here Korchnoi thought for about
+a minute and a half and not seeing a defence to the double
+threat of 31...Bxe2 and 32...Qh4+ resigned.} 0-1

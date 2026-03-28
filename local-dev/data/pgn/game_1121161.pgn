@@ -1,0 +1,51 @@
+[Event "Lasker - Schlechter World Championship Match"]
+[Site "Vienna AUH"]
+[Date "1910.01.22"]
+[EventDate "?"]
+[Round "5"]
+[Result "1-0"]
+[White "Carl Schlechter"]
+[Black "Emanuel Lasker"]
+[ECO "C66"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "116"]
+
+1.e4 {Notes by Jose Raul Capablanca from "The Chess Weekly",
+1910.} e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7 6.Nc3 Be7
+7.Bg5 O-O 8.dxe5 Nxe5 {Of course if 8...dxe5 9.Bxc6 would win
+a pawn.} 9.Bxd7 Nfxd7 10.Bxe7 Nxf3+ {If 10...Qxe7 probably
+11.Nxd4} 11.Qxf3 Qxe7 12.Nd5 Qd8 13.Rad1 Re8 14.Rfe1 Nb6
+15.Qc3 Nxd5 16.Rxd5 Re6 17.Rd3 Qe7 18.Rg3 Rg6 19.Ree3 Re8
+20.h3 Kf8 21.Rxg6 hxg6 {With every exchange Black's position
+becomes better. Whatever positional advantage White had is
+fast disappearing.} 22.Qb4 c6 23.Qa3 a6 24.Qb3 Rd8 25.c4 Rd7
+26.Qd1 Qe5 27.Qg4 Ke8 28.Qe2 Kd8 29.Qd2 Kc7 {White, apparently
+satisfied with his position has allowed the black king to move
+over to the queenside, without making any attempt to stop
+him. White now starts an advance of the queen side pawns,
+which is checked by Black at once.} 30.a3 Re7 31.b4 b5 32.cxb5
+axb5 {Black's strategy has been of a very high order. He has
+now a very fine game.} 33.g3 g5 34.Kg2 Re8 35.Qd1 f6 36.Qb3
+Qe6 37.Qd1 Rh8 38.g4 Qc4 39.a4 {Black's position was becoming
+too alarmingly strong. White prefers to give up a pawn and go
+for the Black king, rather than be boxed in without a chance
+to move anything.} Qxb4 {39...bxa4, and if 40.Qxa4 Rb8, should
+be considered. It looks very much as though Black would
+win. The position is worth studying. By playing 40...Rb8,
+Black threatens to play 41...Rxb4 and then 42...Rb1, with a
+murderous check in sight at f1.} 40.axb5 Qxb5 41.Rb3 Qa6
+42.Qd4 Re8 {If Black were satisfied with a draw, 42...Rb8
+would have accomplished it. The champion's play is better, as
+he could have drawn if he wished up to the fifty-fourth move.}
+43.Rb1 Re5 44.Qb4 Qb5 45.Qe1 Qd3 46.Rb4 c5 {46...Rb5 gave
+Black some chances of winning.} 47.Ra4 c4 48.Qa1 Qxe4+ 49.Kh2
+Rb5 50.Qa2 Qe5+ 51.Kg1 Qe1+ 52.Kh2 d5 53.Ra8 Qb4 {He could
+have easily drawn the game by perpetual check, as White could
+not afford to play 54.Kg2 and 55.f3 because of 55...Qd4.}
+54.Kg2 Qc5 {A most rare case of chess blindness on the part of
+Dr. Lasker. 54...Rb8 would at least draw.} 55.Qa6 Rb8 {It was
+bad now, but he might have tried 55...Qb6 56.Qc8+ Kd6 57.Ra6
+Qxa6 58.Qxa6+ Kc5 and fight it out with the two passed pawns
+and his rook against the queen.} 56.Ra7+ Kd8 57.Rxg7 Qb6
+58.Qa3 Kc8 1-0

@@ -1,0 +1,57 @@
+[Event "Manhattan CC v Marshall CC"]
+[Site "New York"]
+[Date "1934.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "J L McCudden"]
+[Black "Frank James Marshall"]
+[ECO "A13"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "82"]
+
+1.Nf3 {Notes by Frank Marshall} d5 2.c4 e6 3.b3 c5 4.g3 Nc6
+5.Bg2 Be7 {For reasons that will be given later, this is
+stronger than the more obvious ...Nf6.} 6.Bb2 Bf6 {!} 7.Nc3
+Nge7 8.O-O O-O 9.Rc1 Bxc3 {! The strength of the bishop has
+been demonstrated so convincingly in modern chess that this
+exchange comes as a great surprise. However, it is well
+motivated : Black has foreseen that after the intended
+advances with ...d4 and ...e5 the king bishop would have
+little scope - hence it's removal is in order. The result is
+that Black retains his more effective bishop - the one moving
+on the white squares. Furthermore, the strength of White's
+bishops is greatly minimized by the fact that the position is
+one in which bishops cannot accomplish a great deal.} 10.Rxc3
+d4 11.Rc1 e5 12.d3 Bg4 13.Qd2 Qd7 14.Ba3 {? White's plan is to
+break through on the queen-side with an eventual b4, but this
+has little value unless precede by a3. The right course was 14
+Ng5! followed by Ne4 and f4, and possibly a3 and b4 later on.}
+Qd6 15.b4 {Ng5 was still available.} cxb4 16.c5 Qd7 17.Bxb4 h6
+{This useful move prevents Ng5-e4-d6 and also, at some future
+time, the possibly annoying Qg5. It is interesting to observe
+that White's attempt to extend the scope of his queen bishop
+has not succeeded.} 18.Qb2 {Instead of beginning the pressure
+on the b-file at once, he would have done better to retain the
+king bishop with some such move as Rfe1.} Bh3 19.Nd2 Bxg2
+20.Kxg2 Nd5 21.Ba3 f5 22.Nc4 {And now he tries to get the
+knight into the game, but too much time is lost thereby. It is
+true that in closed positions time is not so important, yet so
+great an expenditure of time may prove to be a luxury, in view
+of Black's gaining strength in the center and on the
+king-side.} f4 {Setting up the f-file as a valuable basis of
+attack.} 23.Nd6 Rab8 24.Qb3 Qe6 25.Rb1 Kh7 26.Qc4 fxg3 {The
+defensive formalities attended to, Black resumes his attack on
+the king. If now 27 Nxb7 Na5! 28 Nxa5 Rb1 29 Rb1 Rxf2+ wins -
+an indication of the futility of White's queen-side
+activities.} 27.hxg3 {Black is now ready for the final
+onslaught.} Nf4+ {!} 28.gxf4 Qg4+ {Black's attack is perfectly
+sound because White's menaced king can secure no appreciable
+aid from his officers, who are busily engaged in conquering
+"scorched earth".} 29.Kh2 Rxf4 30.Ne4 Qh4+ 31.Kg2 Rg4+ 32.Ng3
+Rf8 {! Decisive reinforcement of the attack : there is no good
+reply to his next move.} 33.Rg1 Rxf2+ {!} 34.Kxf2 Qh2+ 35.Rg2
+Rf4+ 36.Ke1 Qxg2 {If now 37 Ne4 Qf1+ winning the rook.}
+37.Rxb7 Qxg3+ 38.Kd1 Rf1+ 39.Kc2 Qe1 {there is no defence.}
+40.Rb5 Qd1+ 41.Kb2 Qb1# 0-1

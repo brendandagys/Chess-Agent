@@ -1,0 +1,57 @@
+[Event "Nottingham"]
+[Site "Nottingham ENG"]
+[Date "1936.08.22"]
+[EventDate "1936.08.10"]
+[Round "11"]
+[Result "1-0"]
+[White "Alexander Alekhine"]
+[Black "Conel Hugh O'Donel Alexander"]
+[ECO "E11"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "53"]
+
+1. d4 {Notes by Alekhine} Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2
+{The usual move nowadays is 4 Bd2, in order to develop the
+knight on the more natural square c3. But, on the other hand,
+if Black wants to avoid the exchange of his king's bishop, he
+will now be forced to lose time by retreating it to e7. The
+text move therefore cannot be condemned. It has the advantage
+anyhow of leading to more complicated lines than the usual
+move.} b6 5. g3 Bb7 6. Bg2 O-O 7. O-O Bxd2 {? Instead of this
+exchange, which yiels White the advantage of the pair of
+bishops without necessity, Black could play either d5
+(Rubinstein-Alekhine, Semmering, 1926) or even Be7, followed
+by d6, Nbd7, etc. In both cases he would have better
+equalising prospects than in the actual game.} 8. Qxd2 {The
+correct recapture, as the queen bishoop is wanted on the long
+diagonal.} d6 9. b3 Nbd7 10. Bb2 Rb8 {Black shows his hand
+decidedly to early. The obvious object of the text move is to
+play Ne4 followed by f5, for which purpose the bishop must be
+protected, to avoid the possible answer Ng5. But the same idea
+could have been combined with a mobilisation by 10...Qe7,
+11...Rad8, and eventually Ba8.} 11. Rad1 {! An interesting and
+effective method of meeting Black's plan. The White queen
+bishop is to play in the following development a most
+important and practically decisive part.} Ne4 {If Qe7 then 12
+Qe3 (Ne4 13 d5).} 12. Qe3 f5 13. d5 {This pawn will only
+apparently be weak, as White can always protect it by
+counter-attack.} exd5 {e5 instead would lose a pawn by 14
+Nh4!} 14. cxd5 Ndf6 15. Nh4 Qd7 {If Nxd5 then 16 Rxd5 Bxd5 17
+Qd4 winning a piece.} 16. Bh3 {Again preventing Nxd5 , this
+time because of 17 Qxe4.} g6 17. f3 Nc5 18. Qg5 {Threatening
+not only 19 Bxf6 but also 19 B or Nxf5; and if 18...Nxd5 then
+19 Nxg6 wins. Black's reply is therefore forced.} Qg7 19. b4
+Ncd7 {Equally hopeless would be Na4 20 Ba1, etc.} 20. e4 {!
+The initial move of the decisive sacrificial combination.}
+Nxe4 {Black clearly based his last hopes on this ingenious
+stroke. If now 21 Bxg7 Nxg5 22 Bxf8 then Nxh3+ 23 Kg2 Rxf8 24 Kxh3 Nf6 followed by Nxd5 with good fighting chances.} 21. Qc1
+{! Much more effective than 21 fxe4 Qxb2 22 exf5 Qf6 yielding
+White only a possible win after a laborious end-game.} Nef6
+22. Bxf5 {! The surprising sequal to 20 e4. After gxf5 23 Nxf5
+Black would either lose his queen or be mated (23...Qh8 24
+Nh6+ Kg7 25 Qg5 mate).} Kh8 23. Be6 {At last the d-pawn is
+definitely safe.} Ba6 24. Rfe1 Ne5 25. f4 {Far the simplest
+way to force resignation.} Nd3 26. Rxd3 Bxd3 27. g4 {There is
+no remedy against g5. This game won the special prize for the
+most brilliant king side attack at Nottingham.} 1-0

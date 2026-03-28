@@ -1,0 +1,45 @@
+[Event "Metropolitan Chess League"]
+[Site "New York, NY USA"]
+[Date "1937.04.03"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Alexander Kevitz"]
+[Black "Frank James Marshall"]
+[ECO "E54"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "50"]
+
+1.c4 {Notes by Frank Marshall} Nf6 2.Nc3 e6 3.Nf3 d5 4.d4 Bb4
+{We have reached a Queen's Gambit Declined in somewhat a
+devious manner. After the timid reply that follows, Black is
+at once certain of a satisfactory position.} 5.e3 O-O 6.Bd3 c5
+{Freeing his position and disputing the control of the
+center.} 7.O-O dxc4 8.Bxc4 a6 9.dxc5 {If 9 a3 Bxc3 10 bxc3 b5
+11 Bd3 Bb7 leaving Black with an excellent position, despite
+his opponent's two bishops.} Bxc5 10.Qc2 {? White's enterprise
+in avoiding a probably quick draw after 10 Qxd8 is laudable,
+but the move he selects is faulty. 10 Qe2 was in order, as it
+would have avoided the two drawbacks of the text : putting
+Black's queen on a file where it will later be opposed by a
+black rook, and giving up the protection of White's king
+knight, which will later lead to a weakening of the
+king-side.} b5 11.Rd1 Qe7 12.Bd3 {Be2 would avoid the later
+breaking up of the king-side, but then White's queen knight
+would be banned from e4, and White would be restricted to an
+uncomfortable small amount of terrain.} Bb7 13.Ne4 Nbd7 {!
+Black still does not fear the two bishops. After 14 Nxc5 Nxc5
+his generally agressive position would outweigh the bishop
+pair.} 14.Bd2 Rac8 {Leaving White's queen in a poor
+position. As 15 Qb1 is not inviting, the following weakening
+of Black's king-side is inevitable.} 15.Nxc5 Bxf3 16.gxf3 Rxc5
+17.Qb3 Rg5+ 18.Kh1 {After this White's game soon becomes
+untenable. Kf1 offered some defensive prospects.} Nc5 19.Qc2
+{If 19 Bb4? Qb7! wins at once.} Rh5 20.Ba5 {Black threatened
+to win with 20...Qc7 21 f4 Qb7+ 22 Kg1 Qf3. But the text is
+likewise ineffectual.} Qb7 {This is decisive. If 21 e4 (or 21
+Be4) Qb8 wins,If 21 Be2 Ng4 wins, and if 21 Kg2 Rg5+ winning.}
+21.Rg1 Qxf3+ 22.Rg2 Nxd3 23.Qxd3 Ng4 24.Kg1 Nxf2 25.Rf1
+{Blundering in a lost position. If 25 Rxf2 Rg5+ 26 Kf1 Qh1+
+wins.} Qxg2+ 0-1

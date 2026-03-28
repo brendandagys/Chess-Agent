@@ -1,0 +1,33 @@
+[Event "Simul, 23b"]
+[Site "Arnstadt GER"]
+[Date "1926.10.12"]
+[EventDate "1926.??.??"]
+[Round "?"]
+[Result "0-1"]
+[White "H Hage"]
+[Black "Aron Nimzowitsch"]
+[ECO "A80"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "84"]
+
+1.d4 {Notes by Nimzowitsch} f5 2.e3 d6 3.Bd3 e5 4.dxe5 dxe5
+5.Bb5 c6 6.Qxd8 Kxd8 7.Bc4 Bd6 8.Nf3 Nf6 9.Nc3 {A better line
+of play would be a4 with b3 and Bb2 or Ba3.} Ke7 10.a3 Rd8
+11.Bd2 b5 12.Ba2 a5 13.O-O b4 14.Nb1 c5 15.Bc4 e4 16.Ng5 Ba6
+17.Bxa6 Rxa6 18.axb4 axb4 19.Rxa6 Nxa6 {Black's blockade shows
+the same component parts as in the preceeding game, namely the
+d-file, the central square e5 and the qualatative majority on
+the K side. Added to this there is the Q side, which is
+threatening in a blockading sense.} 20.c3 h6 21.Nh3 Ng4 22.g3
+Ne5 23.Kg2 g5 24.Bc1 b3 25.Nd2 c4 26.Ng1 Nc5 27.Ne2 Rg8 28.Nd4
+f4 {If now 29 exf4 gxf4 30 Re1 then e3 31 fxe3 fxg3.} 29.Nf5
+Ke6 30.Nxd6 f3 31.Kg1 Kxd6 {The White position now looks
+hopeless.} 32.Rd1 Ke6 33.Nb1 Ncd3 34.Na3 Kd5 35.Nb5 Rb8 36.Na3
+Ra8 37.h3 Kc5 38.Kf1 Nxc1 {This leads to an immediate win.}
+39.Rxc1 Nd3 40.Rb1 Nxb2 41.Rxb2 Rxa3 42.Rb1 b2 {A geniune
+blockade-game with a blockading net covering both wings as
+well as the center. Without belittling the operations on the
+wings, we feel inclined to attach greater importance to the
+central manouvers around e5 and d3 : the blockade no doubt
+originated in the center.} 0-1

@@ -1,0 +1,37 @@
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi YUG"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "3.1"]
+[Result "0-1"]
+[White "Vasily Smyslov"]
+[Black "Robert James Fischer"]
+[ECO "D79"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "92"]
+
+1. c4 {Notes by Bobby Fischer} g6 2. g3 Bg7 3. Bg2 Nf6 4. Nf3
+O-O 5. O-O c6 6. d4 d5 7. cxd5 cxd5 8. Nc3 {Theory says that
+Black equalizes easily against this move. The sharper 8 Ne5 is
+answered satisfactorily by 8...Bf5 as in the Botvinnik-Smyslov
+match 1957, and also in a later game Benko-Fischer.} Ne4
+9. Qb3 Nc6 {!} 10. Be3 {Of course Black's d-Pawn was taboo.}
+Na5 11. Qd1 {? Allows a very bad Pawn formation. Correct was
+11 Qb4.} Nxc3 12. bxc3 b6 13. Ne5 Ba6 {Black has ideal play
+against White's backward c-Pawn.} 14. Re1 Rc8 15. Bd2 e6
+16. e4 Bb7 {! Of course trading white squared Bishops
+highlights White weaknesses on the white squares.} 17. exd5
+Bxd5 18. Bxd5 Qxd5 19. Qe2 Rfd8 {19...Nc4! was simpler.}
+20. Ng4 {!?} Nc4 {? 20...h5 21 Ne3 Qd7, with a clear
+advantage.} 21. Bh6 {! Suddenly White has counterplay;
+21...Bxh6 is impossible because of 22 Nf6+.} f5 22. Bxg7 Kxg7
+23. Ne3 Nxe3 24. Qxe3 Rc6 25. Rac1 Rdc8 26. c4 {? Better was
+Qd2.} Rxc4 27. Rxc4 Rxc4 28. Qxe6 Qxe6 29. Rxe6 Kf7 {!}
+30. Re3 {?? 30 d5 gave real chances for a draw, the rest is
+easy.} Rxd4 31. Ra3 a5 32. Rc3 Ke6 33. Kg2 Kd6 34. h4 Ra4
+35. Rc2 b5 36. Kf3 b4 37. Ke3 Kd5 38. f3 Ra3+ 39. Kf4 a4
+40. g4 fxg4 41. fxg4 b3 42. axb3 axb3 43. Rc7 Ra4+ 44. Kg5 Rb4
+45. Rc1 Kd4 46. Kh6 Rb7 {Because Black by approaching with his
+king can win White's Rook for the b-Pawn without losing his
+own h-Pawn.} 0-1

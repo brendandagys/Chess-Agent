@@ -1,0 +1,50 @@
+[Event "Ostend"]
+[Site "Ostend BEL"]
+[Date "1906.07.11"]
+[EventDate "1906.06.05"]
+[Round "30"]
+[Result "0-1"]
+[White "Akiba Rubinstein"]
+[Black "Carl Schlechter"]
+[ECO "D00"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "66"]
+
+1.d4 {Notes by Dr. Emanuel Lasker, Carl Schlechter and Leopold
+Hoffer. *** Lasker: A game that in no way distinguishes itself
+in the opening, novel though the course pursued by the two
+brilliant masters may be, it is void of interest until the
+endgame stage is reached. Then a position full of of varied
+combinations is arrived at. A draw should, nevertheless, have
+resulted. The first player concludes by a blunder, but his
+game was hopeless then.} d5 2.Bf4 e6 3.e3 Bd6 4.Bg3 Nf6 5.Nd2
+Bxg3 6.hxg3 Qe7 7.f4 {Lasker: To prevent 7...e5 which, in view
+of the weakness of White on the black squares, would have
+allowed Black a dominating sphere of action.} Ne4 {Lasker:
+Hardly advancing his cause. 7...c5 at once would have yielded
+a quicker development. *** Schlechter: Here 7...b6!? deserves
+attention.} 8.Nxe4 dxe4 9.Qd2 Nd7 10.g4 Nb6 11.Be2 Bd7 12.Nh3
+f6 13.Nf2 Bc6 14.c4 O-O-O 15.O-O-O h6 16.Qc2 f5 17.Qc3
+{Hoffer: After 17.g3! White is better.} Kb8 18.gxf5 exf5 19.g4
+Bd7 20.Rdg1 g5 21.Nh3 {Lasker: 21.fxg5 first would have
+avoided the ensuing complication. The exchange of both pawns
+on the kingside, though opening the rook file for Black, would
+have resulted to the advantage of White, inasmuch as the extra
+pawn on the queenside should be at greater value than the
+isolated pawn of Black, all other things being equal. ***
+Schlechter: Much better is 21.fxg5 hxg5 22.gxf5 with
+advantage.} fxg4 22.Bxg4 Bxg4 23.Rxg4 Qe6 24.Rhg1 Qxc4 25.Qxc4
+Nxc4 26.fxg5 hxg5 27.R4g3 {? Lasker: More natural is 27.Nxg5
+Nxe3 28.Rxe4 Rhe8 which would have readily led to a draw. ***
+Hoffer: Perhaps White should try 27.R1g3!?} g4 28.Nf2 Rh2
+29.Nd1 {? Schlechter: Better is 29.Nxg4! Rxb2 30.Ne5 Rb4
+31.Rg8 Rc8 32.Nxc4 Rxc4 33.Kb2.} c5 {! Lasker: Charming an
+attack out of nothing. 30.dxc5 would now, of course, be bad,
+as Black would then double his rooks on the 2nd rank, and at
+the very least recoup himself.} 30.R3g2 {Schlechter and
+Lasker: This loses a pawn and the game. But, 30.Rxg4 cxd4
+31.Rxe4 is met by the elegant move 31...Rc8! whereupon 32.Rxd4
+Na3+ 33.Nc3 Rc2+ 34.Kd1 Rxb2 35.Ne2 Rcc2 will ultimately win.}
+Rxg2 31.Rxg2 cxd4 32.exd4 Rxd4 33.Rxg4 Rxd1+ {The rest of the
+game is unavailable.} 0-1

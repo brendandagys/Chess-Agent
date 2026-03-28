@@ -1,0 +1,34 @@
+[Event "St. Petersburg"]
+[Site "St. Petersburg RUE"]
+[Date "1909.02.18"]
+[EventDate "1909.02.15"]
+[Round "3"]
+[Result "1-0"]
+[White "Akiba Rubinstein"]
+[Black "Emanuel Lasker"]
+[ECO "D30"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "79"]
+
+1.d4 {Notes by Emanuel Lasker} d5 2.Nf3 Nf6 3.c4 e6 4.Bg5 c5
+5.cxd5 exd5 6.Nc3 cxd4 7.Nxd4 Nc6 {The cause for subsequent
+embarrasment. 7...Be7 was preferable.} 8.e3 Be7 9.Bb5 {Showing
+up the weakness of Black's 7th move.} Bd7 10.Bxf6 Bxf6 11.Nxd5
+Bxd4 12.exd4 Qg5 13.Bxc6 Bxc6 14.Ne3 O-O-O {A careless
+move. There was no reason for Black to desist from his
+intention of capturing the g-pawn simply because White has
+omitted Qe2+. As a matter of fact, after ...Bxg2 15 Rg1 Qa5+
+16 Qd2 Qxd2+ 17 Kxd2 Be4 Black would have been quite
+comfortable.} 15.O-O Rhe8 16.Rc1 {! A very subtle move. What
+with the threat of Rc5 and d5, White retains his advantage,
+and he can certainly cope with Black's threat of ...Rxe3.}
+Rxe3 17.Rxc6+ bxc6 18.Qc1 {!} Rxd4 19.fxe3 Rd7 20.Qxc6+ Kd8
+21.Rf4 {! A splendid idea, threatening to decide the game at
+once by Qa8+, followed by a Rook check on e4 or c4; hence,
+Black is forced to swap Queens and to face a lost ending.} f5
+22.Qc5 Qe7 {After 22...Rd1+ 23 Kf2 Rd2+ 24 Ke1 Qxg2 White
+would win the Rook by 23 Qa5+.} 23.Qxe7+ Kxe7 24.Rxf5 Rd1+
+25.Kf2 Rd2+ 26.Kf3 Rxb2 27.Ra5 Rb7 28.Ra6 Kf8 29.e4 Rc7 30.h4
+Kf7 31.g4 Kf8 32.Kf4 Ke7 33.h5 h6 34.Kf5 Kf7 35.e5 Rb7 36.Rd6
+Ke7 37.Ra6 Kf7 38.Rd6 Kf8 39.Rc6 Kf7 40.a3 1-0

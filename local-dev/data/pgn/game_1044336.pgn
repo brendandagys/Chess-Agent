@@ -1,0 +1,44 @@
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi YUG"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "1.2"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Mikhail Tal"]
+[ECO "A00"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "89"]
+
+1. g3 {Notes by Bobby Fischer} g6 2. Bg2 Bg7 3. Nf3 c5 4. c3
+Nf6 5. O-O O-O 6. d4 {I played this opening in Benko's style.}
+d6 {? The ensuing endgame is clearly better for White because
+his Bishop on g2 is more active than Black's on g7 and Black
+has weaker squares. Neither is particularly recommendable
+6...Qb6!? 7 d5! as in Benko-Fischer, Curacao 1962, when
+Black's Queen on b6 was misplaced. Correct for Black was
+6...cxd 7 cxd d5! with an equal game as in Smyslov-Fischer in
+this same Blitz tournament.} 7. dxc5 dxc5 8. Qxd8 Rxd8 9. Be3
+Na6 10. Na3 Nd5 11. Rfd1 Bg4 12. Bd2 h6 {To keep White out of
+g5; if 12...Nac7 but after 13 Nc4 b6? (otherwise 14 Na5 with
+pressure) 14 Nce5 Be6 (14...Bxe5 Nxe5 Bxe2 16 Re1 Ba6 17 c4
+Nf6 18 Bc3 threatening 19 Nc6 and 19 Ba8 should win) 15 e4 Nf6
+16 Nc6! Re8 17 Bf4 Na6 18 Bf1 c4 19 Ng5, Black is lost.}
+13. h3 {Nb5, or Re1 were probably more exact.} Be6 14. Nb5
+Ndc7 {14...Nb6 gave more counter play.} 15. a4 Bb3 16. Rdc1
+Nxb5 17. axb5 Nc7 18. Be3 {!} Nxb5 19. Bxc5 b6 {?? It was not
+necessary to give away a Pawn. Correct was 19...e6 still after
+20 e3 threatening Nd4, White keeps an edge.} 20. Bxe7 Re8
+21. Ba3 Rad8 {21...Rxe2 22 Bf1! wins the exchange.} 22. e3 {A
+Pawn up and a powerful square on d4, the position is easily
+winning for White.} a5 23. Nd4 Nxa3 24. Rxa3 Bc4 25. Bf1 Bd5
+26. Bg2 Bc4 27. Ra4 Bd3 28. b4 {!} axb4 29. Rxb4 Rd6 30. Rd1
+Bc2 31. Rd2 Bf5 32. Rdb2 Rc8 {32...Rb8 ofcourse was slightly
+more tenacious, but after 33 Nxf5 gxf5, Black's pawn structure
+on the King side is hopeless.} 33. Rxb6 Rxb6 34. Rxb6 Rxc3
+35. Nxf5 gxf5 36. Bd5 {Rb5 was more precise.} Rc7 37. Rb5 Re7
+38. Bc4 Re5 {?} {Better to give up the Pawn on f5 with 38...f4
+or Bf8 it is just a matter of time in any case.} 39. Rb7 Kh7
+40. Rxf7 Kg6 41. Rc7 Bf8 42. Rc6+ Kg7 43. Bd3 Be7 44. Bc2 Ra5
+45. Kg2 1-0

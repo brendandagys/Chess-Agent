@@ -1,0 +1,41 @@
+[Event "Munich"]
+[Site "Munich GER"]
+[Date "1941.09.18"]
+[EventDate "1941.09.08"]
+[Round "13"]
+[Result "0-1"]
+[White "Peter Leepin"]
+[Black "Alexander Alekhine"]
+[ECO "A22"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "40"]
+
+1. c4 {Notes by Alekhine} e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5
+5. Bg2 Nb6 6. a4 {This move is not recommendable at this stage
+of the game, since white obtains no advantage and at the same
+time gives up to Black the square b4.} a5 7. d3 Bb4 {the first
+consequence of white's sixth move; otherwise the bishop would
+modestly have had to satisfy itself with the square e7.}
+8. Nf3 Nc6 9. O-O O-O 10. Be3 Bg4 11. Rc1 f5 {! A precisely
+calculated pawn sacrifice, the acceptance of which leads to
+rapid destruction foreseen by black here on the eleventh
+move.} 12. Ng5 {Apparently effective in view of the threats 13
+Ne6 and 13 Qb3+.} f4 {!} 13. Bxb6 Qxg5 14. Bxc7 Qh5 {Moe
+efficacious than 14...Nd4, to which White would have been able
+to respond with 15 f3. But now this move is impossible in view
+of 15...Bc5+ with an immediate win.} 15. Bxc6 {This eliminates
+one enemy but there still remains sufficient reserves. 15 Bf3
+would also have lost quickly after 15...Bxf3, followed by
+...Rf6.} bxc6 16. Rc2 {If 16 Re1 then 16...fxg3 17 hxg3 Rxf2!
+18 Kxf2 Bc5+.} Bxc3 {The most exact. In the continuation from
+the plausible 16...f3 white would have been able to stop the
+direct mating threats with 17 h4! Bxc3 18 Rxc3 fxe2 19 Qb3+,
+followed by 20 Re1 etc.} 17. Rxc3 Bxe2 18. Qb3+ Kh8 19. Re1
+Qh3 {! This reveals the idea behind the exchange on the
+sixteenth move. For the only plausible move, 20 f3, I had
+prepared mate in eight moves: 20...fxg3! 21 Rxe2 Rxf3 22 Rc1
+Raf8 23 Qd1 (or 23 Rg2 gxh2+ and mate in two) Rf2! 24 Rxf2
+gxf2+ 25 Kh1 f1 (Q)+ etc.} 20. Bxe5 {After this move Black has
+the agreeable choice between mate with 20...f3 or with
+20...Bf3.} f3 {!} 0-1

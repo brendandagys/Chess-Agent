@@ -1,0 +1,25 @@
+[Event "Hastings"]
+[Site "Hastings ENG"]
+[Date "1895.08.27"]
+[EventDate "1895.08.05"]
+[Round "17"]
+[Result "1-0"]
+[White "David Janowski"]
+[Black "Wilhelm Steinitz"]
+[ECO "C72"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "47"]
+
+1.e4 {Notes by H. N. Pillsbury} e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6
+5.O-O Nge7 6.Bb3 { New but not true ; either d4 or d3 was the
+correct move.} Na5 7.d4 { This and the following move should
+have cost White a Piece and the game.} exd4 8.Nxd4 c5 9.Nf5
+Nxf5 {Evidently a grave error ; for after Bxf5 if !0 exf5 c4
+wins a clear Piece, and White obtains nothing for it.} 10.exf5
+Nxb3 {Obvionsly if now c4 11 Qe2+, winning a Pawn.} 11.Re1+
+Be7 12.f6 gxf6 13.axb3 d5 {Be6 seems preferable, followed soon
+by Qd7.} 14.Qh5 Qd6 15.Nc3 Be6 16.Nb5 {Very pretty, winning by
+force ; after this Black has no resource.} Qc6 17.Rxe6 Qxb5
+18.Bh6 Kd8 19.Qxf7 Re8 20.Rae1 Qd7 21.Bg7 {!} Rc8 22.Bxf6 Bxf6
+23.Qxf6+ Kc7 24.Qe5+ 1-0

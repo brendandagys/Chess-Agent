@@ -1,0 +1,42 @@
+[Event "New York"]
+[Site "New York, NY USA"]
+[Date "1927.02.24"]
+[EventDate "1927.02.19"]
+[Round "5"]
+[Result "0-1"]
+[White "Milan Vidmar"]
+[Black "Aron Nimzowitsch"]
+[ECO "E11"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "58"]
+
+1. d4 {Notes by Nimzowitsch} Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2
+Qe7 {This innovation, introduced by the author, does not in
+any way indicate an early commitment to a particular line of
+opening: the queen is well placed at e7 in any case- Indian or
+Dutch.} 5. Nc3 {Slightly better would be 5 g3} O-O 6. e3 d6
+{Black is still at the crossroads between Dutch (b6 and Bb7)
+and Indian (c5 or e5 with Nc6) the decision is taken on the
+next move.} 7. Be2 {He foregoes 7 Bd3 which must come as a
+success for Black's alternating policy. If 7 Bd3 e5.} b6
+8. O-O Bb7 9. Qc2 Nbd7 10. Rad1 Bxc3 11. Bxc3 Ne4 12. Be1 f5
+{He turns completely Dutch.} 13. Qb3 {The idea of this
+slightly puzzling move is to keep his e-pawn covered, e.g.,
+after Nd2, ...Nxd2, Rxd2, ...Qg5, f3 and the e-pawn is
+covered.} c5 {With this move the dutch formation is completed
+: point e4, and the pawn at c5 for attack or defence,
+(stopping White's c5.)} 14. Nd2 Nxd2 15. Rxd2 e5 16. dxe5 dxe5
+17. f3 g5 {Black's task is now to manage his wing attack in
+such a way that his opponent cannot in the meantime break
+through on the d-file.} 18. Bf2 Nf6 19. Rfd1 Rae8 20. Qa4 Ba8
+21. Rd6 {Insufficient would be the sacrifice of the exchange
+by 21 Rd7 Nxd7 22 Rxd7 because of ...Qf6 23 Qxa7 and now
+simply ...h6.} Qg7 22. Bf1 {A better defence is available by
+22 Be1, e.g. : 22...e4 23 Bc3 or if 22...g4 23 fxg4 Nxg4 24
+Rd7 Qg5 25 Bxg4 Qxg4 26 Qc2.} e4 23. Be1 exf3 24. Bc3 {Now
+this digression comes too late as the pretty play
+demonstrates.} Qe7 {Now 25. Bxf6 would lead to mate;
+25...Qxe3+ 26 Kh1 fxg2+ with ...Qe1+.} 25. R6d3 fxg2 26. Bxg2
+Bxg2 27. Bxf6 {If 27 Kxg2 Qe4+ with a short and decisive
+attack.} Qe4 28. R1d2 Bh3 29. Bc3 Qg4+ {And mate in two.} 0-1

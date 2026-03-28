@@ -1,0 +1,28 @@
+[Event "Blackburne - Zukertort"]
+[Site "London ENG"]
+[Date "1887.05.12"]
+[EventDate "1887.05.07"]
+[Round "3"]
+[Result "1-0"]
+[White "Joseph Henry Blackburne"]
+[Black "Johannes Zukertort"]
+[ECO "C83"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "69"]
+
+1.e4 {Notes by Blackburne} e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6
+5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 {This is not considered
+a good defense as it leaves a weakness on the Queen's side.}
+9.c3 Be7 10.Bf4 O-O 11.Nd4 Nxd4 12.cxd4 f6 13.Nc3 fxe5 14.Bxe5
+Nxc3 15.bxc3 Qd7 16.Qe2 Rae8 {Quite in Zukertorts style; but
+he does not take into account the weakness on his Queen's
+side.} 17.a4 c5 18.axb5 axb5 19.Ra6 c4 20.Bc2 Bf5 21.Rfa1 Bf6
+22.f4 Bxe5 23.fxe5 Bxc2 24.Qxc2 Qg4 {Threatening P-Kt5.}
+25.Qd2 h5 26.Qe3 Rf4 27.Ra8 Rxa8 28.Rxa8+ Kh7 29.Ra1 {If
+29.P-R3 Q-Q8+ 30.K-R2 R-B8 and White's game is lost.} b4 30.h3
+Qg5 {The losing move.} 31.Re1 bxc3 32.e6 {The begining of a
+decisive combination.} c2 33.e7 Re4 {If (says the field) Black
+had played here R-B8+, the following pretty variation might
+have occured; 34.KxR QxQ 35.RxQ PQueen's+ 36.R-Ksq Q-B5+
+37.K-Ktsq QxP+ 38.K-Rsq and wins.} 34.Qxg5 Rxe1+ 35.Kf2 1-0

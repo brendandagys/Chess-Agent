@@ -1,0 +1,53 @@
+[Event "Karlsbad"]
+[Site "Karlsbad (Karlovy Vary) AUH"]
+[Date "1907.09.12"]
+[EventDate "1907.??.??"]
+[Round "17"]
+[Result "0-1"]
+[White "Carl Schlechter"]
+[Black "Aron Nimzowitsch"]
+[ECO "C77"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "64"]
+
+1. e4 {Notes by Nimzowitsch} e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4
+Nf6 5. Nc3 Bb4 6. Nd5 Be7 7. O-O O-O 8. Re1 d6 9. Nxf6+ Bxf6
+10. c3 h6 {Black decides on a waiting policy.} 11. h3 Ne7
+12. d4 Ng6 13. Be3 Kh7 {Black still marks time.} 14. Qd2 Be6
+15. Bc2 Qe7 16. d5 {White had done better to mark time also;
+the text move would have a meaning only if it were introducing
+an attack against the Q side, (c4, and b4). But he intends to
+operate on the K wing, and for this d5, is a bad preparation.}
+Bd7 17. Kh2 Nh8 {A preventive move directed against White's
+plan of Ng1, and f4.} 18. Ng1 g5 19. g3 Ng6 20. Qd1 Bg7
+21. Qf3 a5 {Again preventive play. This time the possibility
+of c4, and b4, is to be anticipated.} 22. Ne2 Bb5 23. a4 Bd7
+{It is achieved; the White Q side has lost all momentum and
+the action just mentioned, to be initiated by c4, and b4, is a
+thing of the past.} 24. Rh1 {With this move White plans to
+break through eventually with h4, e.g. : 24...b6 25 h4 gxh4 26
+gxh4 Nxh4 27 Qh5 f5 28 Kg1, etc. But Black discovers a move,
+which not only has a high preventive value, but which also has
+the attribute of driving the opponent into quick action.} Qe8
+{! The threat is ...Qc8; e.g. ...Qc8, h4 ...Bg4, winning a
+knight. White, therefore, has no further time for preparations
+and opens the battle for a breakthrough.} 25. h4 Qc8
+{Threatening ...Bg4.} 26. Bd3 Bg4 27. Qg2 gxh4 28. f3 h3
+29. Qf1 {The breakthrough looks like it is succeeding, for if
+now ...Bd7, then g4 followed by Qxh3 with a winning attack.}
+f5 {The counter-stroke, long since prepared, which decides the
+battle for Black.} 30. fxg4 fxe4 31. Qxh3 exd3 {Only now can
+the full effect of 28...h3 be discerned. By this move the
+white queen was forced from g2 to f1 into the range of the
+Black rook.} 32. Bxh6 Rh8 {This game is noteworthy on account
+of the comprehensive prophylaxis employed; preventive measures
+were taken against c4 and b4 as well as against f4 and later
+on h4. A few words about the charachteristics of the
+preventive moves selected ; the waiting policy by 10...h6 is
+typical of this style of play, for waiting moves form the
+beginning of all prophylactic manouvers. The fact that the
+preventive move 24 ...Qe8 contains a threat at the same time
+by no means detracts from its purity in a prophylaxis, in
+which part of the plan is to drive the opponent to acceerated
+action.} 0-1

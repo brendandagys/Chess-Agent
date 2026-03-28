@@ -1,0 +1,70 @@
+[Event "Breslau"]
+[Site "Breslau GER"]
+[Date "1925.07.23"]
+[EventDate "1925.07.19"]
+[Round "5"]
+[Result "1-0"]
+[White "Aron Nimzowitsch"]
+[Black "Hermann von Gottschall"]
+[ECO "D05"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "93"]
+
+1.Nf3 {Notes by Nimzowitsch An instructive example of the
+method of dealing with the supports of a blockader. In the
+endgame they are usually driven away, in the middlegame on the
+other hand - kept busy.} e6 2.d4 d5 3.e3 Nf6 4.b3 Nbd7 {He
+should have played ...c5 and ...Nc6.} 5.Bd3 c6 6.O-O Bd6 7.Bb2
+Qc7 {In order to play ...e5 and thus open up the game. To
+prevent this, White undertakes a counter attack.} 8.c4 b6 {If
+now 8...e5, the continuation would be 9 c5 Be7 (9...e4 10 exd6
+Qxd6 11 Ba3 etc.) 10 dxe5 Ng4 11 b4 Ngxe5 12 Nxe5 Nxe5 13 f4
+Nxd3 14 Qxd3 and White commands the diagonal b2 to g7.} 9.Nc3
+Bb7 10.Rc1 Rc8 11.cxd5 exd5 12.e4 {White opens all the lines.}
+dxe4 13.Nxe4 Nxe4 14.Bxe4 O-O 15. d5 c5 {The two bishops have
+now a clear line of fire to the enemy king's wing. Impressed
+by this the second player is inclined to underestimate the
+fact that the d-pawn is now passed; in fact to overlook it
+altogether. And indeed what possible road could this most
+carefully blockaded passed pawn play? Why, a reserve blockader
+is already atationed at d7! But things turn out quite
+otherwise.} 16.Re1 Qd8 17.Bb1 {This attack leads to the
+instructive results that the blockading pieces, the bishop at
+d6 and knight at d7 are either cut off or killed off.} Re8
+18.Qd3 {First Rxe8+ would have been more precise.} Nf8
+{...Rxe1+ would have been better.} 19.Rxe8 Qxe8 20.Nh4 {!} f6
+21.Nf5 Rd8 {Black is about to try to show up the weakness of
+White's d-pawn, when he is wakened from his dream by the flash
+of a sacrifice.} 22.Bxf6 {!} Bxh2+ {! In order not to lose a
+pawn Black must submit to this indirect exchange of his
+bishop. If 22...gxf6 then 23 Nxd6 Rxd6 24 Qg3+} 23.Kxh2 gxf6
+{What a change! the bishop at d6 has disappeared and the
+reserve blockader the land at d7 will soon land at g6. The
+d-pawn is therefore free!} 24.Qg3+ Ng6 25.f4 {To allow Re1;
+the passed pawn is indirectly protected.} Kh8 {Not 25...B or
+Rxd5 because of 26 Re1 and 27 Ne7+ etc.} 26.Re1 Qf8 {! If
+26...Qg8, the passed pawn would have come into his own in a
+most interesting manner; namely as follows : 27 Ne7 Nxe7 28
+Rxe7 (7th rank) Qxg3+ 29 Kxg3 Rg8+ 30 Kf2 Rg7. Apparently the
+7th rank is now neutralized, but the passed pawn has something
+to say to that. 32 d6 Rxe7 32 dxe7 Bc6 33 Be4 Be8 34 f5! Kg7
+35 Bd5 and now the pawn at e7 is unassailable. 35... Kh6 36
+Kf3 Kg5 37 Ke4 and Black is powerless against the threat Bb7,
+Kd5, and Bc6, and the blockader must die.} 27.d6 {!} Rd7 {Why
+not ...Bc8, would not this have led to the winning of the
+passed pawn? The answer is no, for the continuation would be
+28 Ne7 (By his p-d6 White has provided an outpost atation at
+e7) 28...Qh6+ (best) 29 Kg1 Nxf4 and now 30 Nxc8 Rxc8 31 d7
+and wins.} 28. Qc3 {Threatening 29 Re8! Qxe8 30 Qxf6+ Kg8 31
+Nh6 mate. Accordingly the 8th rank must be safeguarded by the
+retreat ...Rd8. But in this case the 7th rank will be left
+without protection and White wins by Re7. Note that the
+winning moves Re7 or Ne7 (as in the last note), must be
+regarded as a direct consequence of the passed pawn's
+advance.} Rxd6 {A desperate expedient. If 28...Rf7 then 29 d7
+Rxd7 30 Re8! would have been immediately decisive.} 29.Nxd6
+Qxd6 30.Bxg6 hxg6 31.Re8+ Kg7 32.Qg3 Bc6 33.Re3 Bd7 34.f5 {!}
+Qxg3+ 35.Kxg3 Bxf5 36.Re7+ Kh6 37.Rxa7 Bb1 38.Ra6 b5 39.a4
+bxa4 40.bxa4 Kg5 41.Rb6 Be4 42.a5 f5 43.a6 c4 44.a7 c3 45.Rb3
+f4+ 46.Kf2 c2 47.Rc3 1-0

@@ -1,0 +1,26 @@
+[Event "6th American Chess Congress"]
+[Site "New York, NY USA"]
+[Date "1889.04.22"]
+[EventDate "1889.03.25"]
+[Round "23"]
+[Result "1-0"]
+[White "Joseph Henry Blackburne"]
+[Black "Max Judd"]
+[ECO "C29"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "53"]
+
+1.e4 {Notes by Blackburne.} e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 {exd5
+brings about the Falkbeer Counter Gambit.} Nxe4 5.Nf3 Be7
+6.Qe2 {Better than the alternative d3.} Nxc3 7.bxc3 O-O 8.g3
+{The easiest way to develop the Bishop.} Bf5 9.d3 c5 10.Bg2
+Nc6 11.O-O Rc8 12.Rb1 b6 13.Nh4 Be6 14.Nf5 Re8 15.g4 Bf8
+16.Bf4 Bxf5 {Not good. He should have played f6.} 17.gxf5 Nxe5
+18.Bxe5 f6 19.d4 Kh8 20.Rf3 {The annotator of the New York
+Tournament games remarks: "An excellent move which initiates a
+beautifully conceived idea".} cxd4 21.cxd4 Bd6 22.Rh3 h6
+{Forced, for if 22...exf5 23.Rxh7+ Kxh7 24.Qh5+ Kg8 25.Bxd5+
+and mates in two.} 23.Qd2 fxe5 24.Rxh6+ Kg8 25.Bxd5+ Kf8 26.f6
+{Making an elegant finish.} gxf6 27.Rh8+ {If Ke7 28.Rh7+ Kf8
+29.Qh6 mates.} 1-0

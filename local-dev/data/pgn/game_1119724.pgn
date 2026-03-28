@@ -1,0 +1,42 @@
+[Event "St. Petersburg"]
+[Site "St. Petersburg RUE"]
+[Date "1909.02.19"]
+[EventDate "1909.02.15"]
+[Round "4"]
+[Result "0-1"]
+[White "Milan Vidmar"]
+[Black "Akiba Rubinstein"]
+[ECO "D31"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "156"]
+
+1.d4 {Notes by Lasker} d5 2.c4 e6 3.Nc3 dxc4 4.e3 Nf6 5.Bxc4
+a6 6.Nf3 c5 7.O-O Nc6 8.dxc5 {Here White can prevent the
+advance of Black's b-pawn by a4, and by d5 turn into an open
+game; in this case the Black c-pawn would remain a little
+weak. After the text the positions are equalized.} Bxc5
+9.Qxd8+ Kxd8 10.a3 Ke7 11.b4 Bd6 12.b5 {The idea of this
+advance is that after 12...axb5 13.Nxb5, the Knight would be
+in a commanding position. But, of course, Black does not
+change pawns and White gets into difficulties.} Na5 13.Ba2 Bd7
+14.a4 Rhc8 15.Bb2 Nc4 16.Bxc4 Rxc4 17.Nd2 Rc7 {White's Queen's
+side Pawns are weak and one of them will have to be
+lost. Black threatens already Bb4; Ba3, Bxa3; Rxa3,axb5.}
+18.Nce4 Bb4 19.Rab1 Nxe4 20.Nxe4 Rc4 21.Bd4 a5 22.f3 {Here
+White might have saved the game: 22.Rxb4 axb4 (Rxb4 23.Bc5+
+Kd8 24.Bxb4 axb4 25.Nc5 etc;) 23.Bc5+ Kd8 24.Bb6+ Ke7 25.Bc5+
+Rxc5 26.Nxc5 b6 (Bc8; Rb1 ) 27.Na6 Bc8 28.Rb1.} f6 23.Rfd1
+{Rxb4 was still feasible.} Rac8 24.Rb3 e5 25.Bb6 Rc1 26.Rd3
+Rxd1+ 27.Rxd1 Be6 28.h4 Bb3 29.Ra1 Rc2 30.g4 g6 31.g5 f5
+32.Nf6 h5 33.Rb1 Bc4 34.Rd1 Bd2 35.e4 f4 36.Nd5+ Bxd5 37.exd5
+Kd6 38.Kf1 Be3 {With infinite cleverness Black avoids giving
+the slightest chance to his opponent.} 39.Bxa5 Bd4 40.Rd2 Rc1+
+41.Ke2 b6 42.Bb4+ Kxd5 43.a5 bxa5 44.b6 Rb1 45.Bxa5 Rb5 46.Ra2
+e4 47.fxe4+ Kxe4 48.Ra4 f3+ 49.Kf1 Rb1+ 50.Be1 f2 51.Rxd4+
+Kxd4 52.Kxf2 Rxb6 53.Kf3 Rb5 54.Bg3 Rf5+ 55.Bf4 Kd3 56.Kg3 Ke4
+57.Bb8 Rf3+ 58.Kg2 Rb3 59.Bg3 Kf5 60.Kh3 Rd3 61.Kg2 Kg4 62.Be1
+Rd1 63.Bf2 Rd2 64.Kg1 Kf3 65.Bb6 Rg2+ 66.Kh1 Rg4 67.Bg1 Rxh4+
+68.Bh2 Rg4 69.Bb8 Rxg5 70.Kh2 Rg2+ 71.Kh3 g5 72.Bc7 Rg1 73.Kh2
+Rd1 74.Bb8 g4 75.Bg3 Rd2+ 76.Kg1 Kxg3 77.Kf1 Kf3 78.Ke1 Rd8
+{Which he might have done much sooner.} 0-1

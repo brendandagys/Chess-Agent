@@ -1,0 +1,51 @@
+[Event "Prague"]
+[Site "Prague"]
+[Date "1943.04.15"]
+[EventDate "1943.04.10"]
+[Round "6"]
+[Result "0-1"]
+[White "Friedrich Saemisch"]
+[Black "Alexander Alekhine"]
+[ECO "C79"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "54"]
+
+1. e4 {Notes by Alekhine} e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6
+5. O-O d6 6. Re1 {Better would have been Bxc6+ followed by
+d4.} b5 7. Bb3 Na5 {The exchange of the White king's bishop
+gives Black the present of the best prospects of obtaining
+equality.} 8. d4 Nxb3 9. axb3 Nd7 {More common and perhaps
+better is 9...Bb7. The text move in any case, provides White
+with a problem which is not very easy to resolve.} 10. dxe5
+{And-after forty-five minutes reflection!-Samisch, dismayed,
+decides upon a liquidation which hands over to Black a very
+peaceful game. Schmidt in his game against Keres at Salzburg
+1943 played the proper manoeuver: 10 Bd2! followed by
+Ba5. Black had to make considerable efforts to achieve a drawn
+game.} Nxe5 {Not 10...dxe5 because of 11 Qd5.} 11. Nxe5 dxe5
+12. Qxd8+ Kxd8 {The two Bishops promise Black a few remote
+prospects but the exploitation of this advantage is not an
+easy matter.} 13. Be3 Bb7 14. Nd2 {Nc3 would be simpler.} Bd6
+15. f3 Ke7 16. Bf2 Ke6 17. Nf1 g6 {It is evident that Black
+must attempt to open up the game in order to leave the field
+free for his bishops.} 18. c3 a5 {In order to prevent 19 b4,
+followed by Nd2-b3-c5.} 19. Ra2 {This move has no effect. But
+it is already difficult to indicate a good defensive plan for
+White.} Ra6 20. Ne3 f5 21. exf5+ gxf5 22. Nc2 Kf7 {! This
+prevents 23 Nd4+. In this position f7 is the best square for
+the king.} 23. b4 {White, after strenuous efforts, will
+succeed in exchanging one bishop but in the meantime Black
+will have secured other advantages.} a4 24. Bc5 Rg8 25. Kf2
+Rc6 {! After this move White must make a decision: yield to
+his opponent the command of the queen's file or opt for a new
+restriction on the activity of his pieces after 26 Be3 f4
+etc. In this latter case Black would also conserve excellent
+winning chances.} 26. Bxd6 Rxd6 27. Re2 {? Losing
+immediately. In any case even if he had played 27 g3
+(definitely not 27 Rxe5 Rd2+ 28 Re2 Rxg2+! winning a piece)
+which was the best move, he would not have saved the game. For
+instance 27...Bd5 28 Raa1 Bc4 29 Rad1 Rgd8 30 Rxd6 Rxd6 and
+the entry of the rook to the seventh rank will be decisive.}
+Bd5 {This wins the exchange after 28 Ra1 Bc4, and all further
+fight is impossible.} 0-1

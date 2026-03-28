@@ -1,0 +1,34 @@
+[Event "Hastings"]
+[Site "Hastings ENG"]
+[Date "1895.08.09"]
+[EventDate "1895.08.05"]
+[Round "4"]
+[Result "1-0"]
+[White "Emmanuel Schiffers"]
+[Black "Mikhail Chigorin"]
+[ECO "C56"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "39"]
+
+1. e4 {Notes by H. N. Pillsbury} e5 2. Nf3 Nc6 3. Bc4 Nf6
+4. d4 exd4 5. O-O Nxe4 6. Re1 d5 7. Bxd5 Qxd5 8. Nc3 Qd8
+{...Qf5 9 Nxe4 Be7 10 Bg5 O-O 11 Nxd4 Qg6 leads to an equal
+game. If for White 9 Rxe4+ Be7 10 Nxd4 Nxd4 11 Qxd4 Be6 and
+White dare not capture the proffered pawn on account of the
+following 12 Qxg7 Bf6 13 Qg3 O-O-O 14 Re1 Rhg8 15 Qf4 Rxg2+ 16
+Kxg2 Qh3+ 17 Kh1 Bxc3 and wins.} 9. Rxe4+ Be6 {Very much
+inferior to Be7 10 Nxd4 f5 11 Rf4 O-O 12 Nxc6 Qxd1 13 Nxd1
+bxc6, etc. Black's two bishops should prove ample compensation
+for the doubled pawn.} 10. Nxd4 Nxd4 11. Rxd4 Qc8 12. Bg5 f6
+{This move should have cost black the game at once. Be7 was
+the only resource.} 13. Qe2 {The following variation (first
+pointed out by Mr. Lipschuetz, of New York) forces a winning
+attack : 13 Bxf6 gxf6 14 Qh5+ Bf7 (best) 15 Re1+ Be7 16 Qh6
+Qf5 (best) 17 Nb5 (not Rde4 which allows O-O-O) Qxb5 18 Qxf6
+O-O 19 Rg4+ Bg6 20 Rxg6+ hxg6 21 Qxg6+ Kh8 22 Rxe7 and wins.}
+Bc5 {An oversight which loses in a few moves. 13 ...Kf7 14 Re1
+Bd6 (if fxg5 15 Rd8 and wins) left Black with a fairly good
+game.} 14. Qb5+ c6 15. Qxc5 fxg5 16. Re1 b6 17. Qe5 {Qf5 was
+more direct and decisive.} Kf7 18. Ne4 Qg8 19. Nxg5+ Kg6
+20. Nxe6 1-0

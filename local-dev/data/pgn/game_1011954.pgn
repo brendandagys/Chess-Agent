@@ -1,0 +1,42 @@
+[Event "All-Russian Masters"]
+[Site "St. Petersburg RUE"]
+[Date "1914.01.21"]
+[EventDate "?"]
+[Round "11"]
+[Result "0-1"]
+[White "Sergey Nikolaevich von Freymann"]
+[Black "Alexander Alekhine"]
+[ECO "D30"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "48"]
+
+1. d4 {Notes by Alekhine} d5 2. Nf3 Nf6 3. c4 e6 4. Bg5 {This
+move is of doubtful value, for it allows the following reply,
+hit upon by Duras. It is better to play Nc3 first.} h6 {!
+After this move White has nothing better than to take the
+Knight, leaving his opponent with two Bishops, for if the
+Bishop retreats, the acceptance of the Gambit is in favour of
+Black.} 5. Bh4 dxc4 {More precise would have been 5...Bb4+;
+followed by dxc4; as then the Gambit Pawn could be held by
+...b5, etc.} 6. Qa4+ {The only way of regaining the
+Pawn. Black threatened 6...Bb4+; followed by 7...b5.} Nbd7
+7. Qxc4 c5 8. Nc3 a6 {With the intention of developing the
+Queen Bishop on the long diagonal, a plan which White, as the
+sequel shows, will be unable to frustrate.} 9. a4 b5 {! Black
+still persists, for if 10.axb5 axb5; the White Queen and Rook
+would both be en prise.} 10. Qd3 c4 11. Qb1 Bb7 {! A Pawn
+sacrifice, the object of which is to obstruct White's
+development through pressure on c3.} 12. axb5 {It would have
+been preferable to decline the offer of a Pawn. But in any
+event, even after 12.e3 Qb6 White's position would have
+remained distinctly inferior.} axb5 13. Nxb5 Bb4+ 14. Nc3 g5
+15. Bg3 Ne4 16. Qc1 {All White's last moves were obviously
+forced.} Nb6 {Threatening 17...Na4.} 17. Rxa8 Qxa8 18. Nd2
+Nxd2 19. Kxd2 Qa2 {! Initiating the deciding manouver. Black
+again threatens 20...Na4 and does not allow his opponent the
+respite he needs to disentangle his position by 20.e3} 20. Kd1
+Qb3+ 21. Qc2 {Now the Black c-Pawn will move straight on to
+Queen.} Bxc3 22. bxc3 Be4 {! Simple and immediately decisive.}
+23. Qxb3 cxb3 24. e3 {24.Kc1 Nc4 and mates in a few moves.} b2
+0-1

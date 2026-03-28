@@ -29,6 +29,10 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_core.messages import HumanMessage
 
+from loaders.pdf_loader import PDFLoader
+from loaders.pgn_loader import PGNLoader
+from loaders.wikibooks_loader import WikibooksLoader
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s – %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -37,11 +41,18 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 _HERE = os.path.dirname(os.path.abspath(__file__))
 FAISS_INDEX_PATH = os.path.join(_HERE, "faiss_index")
-DATA_DIR = os.path.join(_HERE, "data")
+DATA_DIR = os.path.join(_HERE, "data/pgn")
 
 # Match the chunking constants used in ingestion/app.py
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
+
+WIKIBOOKS_URLS = [
+    "https://en.wikibooks.org/wiki/Chess_Opening_Theory",
+    "https://en.wikibooks.org/wiki/Chess/Tactics",
+    "https://en.wikibooks.org/wiki/Chess/Strategy",
+    "https://en.wikibooks.org/wiki/Chess/Basic_Openings"
+]
 
 # ---------------------------------------------------------------------------
 # Global singletons (same warm-invocation pattern as the Lambda handlers)
@@ -92,6 +103,7 @@ def _load_documents() -> list[Document]:
         if not filename.endswith(".txt"):
             continue
         filepath = os.path.join(DATA_DIR, filename)
+        logger.info("Loading text file: %s", filepath)
         with open(filepath, encoding="utf-8") as fh:
             text = fh.read()
         for i, chunk in enumerate(_split_text(text)):
@@ -102,6 +114,58 @@ def _load_documents() -> list[Document]:
                 )
             )
     logger.info("Loaded %d chunks from %s", len(docs), DATA_DIR)
+    return docs
+
+
+def _load_pdf_documents() -> list[Document]:
+    """Load all .pdf files under data/ and split them into chunks."""
+    docs = []
+    for filename in sorted(os.listdir(DATA_DIR)):
+        if not filename.endswith(".pdf"):
+            continue
+        filepath = os.path.join(DATA_DIR, filename)
+        logger.info("Loading PDF: %s", filepath)
+        loader = PDFLoader(filepath)
+        pages = loader.load()
+        for page_doc in pages:
+            for i, chunk in enumerate(_split_text(page_doc.page_content)):
+                metadata = {**page_doc.metadata, "chunk_index": i}
+                docs.append(Document(page_content=chunk, metadata=metadata))
+    logger.info("Loaded %d chunks from PDF files", len(docs))
+    return docs
+
+
+def _load_pgn_documents() -> list[Document]:
+    """Load all .pgn files under data/ and split each game into chunks."""
+    docs = []
+    for filename in sorted(os.listdir(DATA_DIR)):
+        if not filename.endswith(".pgn"):
+            continue
+        filepath = os.path.join(DATA_DIR, filename)
+        logger.info("Loading PGN: %s", filepath)
+        loader = PGNLoader(filepath)
+        games = loader.load()
+        for game_doc in games:
+            for i, chunk in enumerate(_split_text(game_doc.page_content)):
+                metadata = {**game_doc.metadata, "chunk_index": i}
+                docs.append(Document(page_content=chunk, metadata=metadata))
+    logger.info("Loaded %d chunks from PGN files", len(docs))
+    return docs
+
+
+def _load_wikibooks_documents() -> list[Document]:
+    """Fetch Wikibooks pages, split each section into chunks, and return Documents."""
+    docs = []
+    for url in WIKIBOOKS_URLS:
+        logger.info("Loading Wikibooks page: %s", url)
+        loader = WikibooksLoader(url)
+        sections = loader.load()
+        logger.info("Loaded %d sections from %s", len(sections), url)
+        for section_doc in sections:
+            for i, chunk in enumerate(_split_text(section_doc.page_content)):
+                metadata = {**section_doc.metadata, "chunk_index": i}
+                docs.append(Document(page_content=chunk, metadata=metadata))
+    logger.info("Loaded %d chunks from %d Wikibooks URLs", len(docs), len(WIKIBOOKS_URLS))
     return docs
 
 
@@ -134,9 +198,15 @@ def get_vectorstore() -> FAISS:
         )
     else:
         logger.info("Building FAISS index from %s", DATA_DIR)
-        docs = _load_documents()
+
+        docs = [
+            *_load_documents(),
+            *_load_pdf_documents(),
+            *_load_pgn_documents(),
+            *_load_wikibooks_documents(),
+        ]
         if not docs:
-            raise ValueError(f"No .txt files found in {DATA_DIR}")
+            raise ValueError(f"No files found in {DATA_DIR}")
         _vectorstore = FAISS.from_documents(docs, embeddings)
         _vectorstore.save_local(FAISS_INDEX_PATH)
         logger.info("FAISS index saved to %s", FAISS_INDEX_PATH)

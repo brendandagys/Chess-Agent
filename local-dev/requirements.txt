@@ -1,8 +1,11 @@
 boto3
+beautifulsoup4
 faiss-cpu
 langchain
 langchain-aws
 langchain-community
 langchain-core
 numpy
+pypdf
 python-dotenv
+requests

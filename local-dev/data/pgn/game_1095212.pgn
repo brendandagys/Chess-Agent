@@ -1,0 +1,44 @@
+[Event "Prague Olympiad"]
+[Site "Prague CSR"]
+[Date "1931.07.21"]
+[EventDate "?"]
+[Round "13"]
+[Result "0-1"]
+[White "Mario Monticelli"]
+[Black "Frank James Marshall"]
+[ECO "D38"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "54"]
+
+1.d4 {Notes by Frank Marshall} Nf6 2.Nf3 e6 3.c4 d5 4.Nc3 Bb4
+{Nowadays known as the Ragozin System, this line was played by
+mysef and others long before the Russian master decided it was
+good.} 5.Qb3 {5 Qa4+ Nc6 6 Ne5 O-O (or 6...Bd7 )gives White no
+advantage.} c5 6.a3 {Waste of time; either 6 Bg5 or e3 is
+preferable.} Bxc3+ 7.bxc3 O-O 8.Bg5 cxd4 9.cxd4 Nc6 {! Not
+minding the doubled pawns which I get two moves later.}
+10.cxd5 exd5 11.Bxf6 gxf6 {...Qa5+ was also good.} 12.Qc3
+{Preventing ...Qa5+. At first glance White appears to have an
+excellent game, in view of his opponent's disorganized pawn
+structure. It soon becomes apparent, however, that this
+drawback is outweighed by Black's rapid development and his
+strong queen-side initiative.} Bf5 13.e3 Rc8 14.Nd2 {Of course
+not 14 Bd3?? Ne5 and wins. Black's play on the c-file,
+culminating in occupation of c2, soon gives him a decisive
+grip on the position.} {So that if 17 O-O Rxd2.} Na5 15.Qb4
+Rc2 16.Bb5 Qb6 17.Nf3 Rfc8 18.O-O a6 {! Positionally
+decisive.} 19.Ba4 Rb2 {! The exchange of queens is virtually
+forced, after which Black will have an easy win : two pawns to
+one on the queen-side, seventh rank and occupation of the weak
+white squares.} 20.Qe7 {Since this does not avoid the
+exchange, and in fact only gains time for Black by making an
+immediate ...b5 possible, he should have played Qxb6
+directly.} Qe6 21.Qxe6 Bxe6 {21...fxe6 is desirable to round
+out Black's pawns, but then 22 Nh4 is a good reply.} 22.h3 b5
+23.Bd1 Rc3 {The winning move. Black forces a powerful passed
+b-pawn.} 24.Nh4 Nc4 25.a4 b4 26.Bg4 b3 27.Bf5 Rd2 {White
+resigns, as the b-pawn cannot be stopped. It is interesting to
+reflect that the queen-side attack succeeded with all the
+speed which is characteristic of a direct king-side attack!}
+0-1

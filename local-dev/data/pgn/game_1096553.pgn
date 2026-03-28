@@ -1,0 +1,41 @@
+[Event "St. Petersburg"]
+[Site "St. Petersburg RUE"]
+[Date "1909.03.05"]
+[EventDate "1909.02.15"]
+[Round "14"]
+[Result "0-1"]
+[White "Jacques Mieses"]
+[Black "Emanuel Lasker"]
+[ECO "C45"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "130"]
+
+1.e4 {Notes by Emanuel Lasker} e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4
+Bc5 5.Be3 Bb6 6.Nc3 d6 7.Nd5 {What with White having to
+forfeit a tempo so as to get rid of the Bishop. Black has
+quickly managed to equalise.} Nf6 8.Nxb6 axb6 9.Nxc6 {This
+exchange is quite unnecessary and merely strengthens Black's
+centre, giving him the initiative.} bxc6 10.Bd3 Qe7 11.O-O Qe5
+12.Qc1 O-O 13.Re1 Re8 14.f3 Nd7 15.c3 Nf8 16.Qd2 Qh5 17.Bf4 f6
+{ White must not be allowed to open up diagonals for his
+Bishops by e5.} 18.a3 Be6 19.Bg3 Nd7 20.Re3 Qf7 21.Rae1 Bc4
+22.Bc2 Ra5 23.Qc1 Kh8 24.Qd1 Re7 25.Qd2 Bb3 26.Bxb3 {This
+exchange is forced for if he retreated Bb1 Black would get an
+overwhelming position by advancing his c-pawn and later
+playing his Knight to d3 via c5.} Qxb3 27.Rc1 Qf7 28.Rd1
+{Better would be c4.} Kg8 29.Qc2 Ra8 30.Ree1 b5 31.Ra1 Nc5
+{Parrying the counter-thrust of the a-pawn just in time.}
+32.Bf2 Nb3 33.Rad1 Ree8 34.Be3 Qc4 35.Qe2 Re7 36.Qc2 {If he
+swapped Queens, the b-pawn would prove untenable in the long
+run.} Rae8 37.Bf2 Re6 {Black is about to move his King over to
+the Queen-Wing and there is little that White can do about
+it.} 38.Qb1 h5 {To forestall an attack on the pawn by e5, once
+the Black King has moved.} 39.h3 Kf7 40.g4 {White must weaken
+his own position in the attempt to disturb Black's plan by an
+attack.} hxg4 41.hxg4 d5 42.exd5 Rxe1+ 43.Bxe1 {Rxe1 is ruled
+out by ...Nd2, etc.} Qe2 44.dxc6 Qxf3 45.Rd7+ Kg8 46.Qd1 Re2
+47.Qd5+ Qxd5 48.Rxd5 Rxe1+ 49.Kf2 Re6 50.Rxb5 Nd2 51.a4 Ne4+
+52.Kg2 Rxc6 53.a5 Kf7 54.b4 Nd6 55.Rb8 Rxc3 56.a6 Ra3 57.Ra8
+Kg6 58.Ra7 Nb5 59.Rb7 c6 60.Rb6 Nd4 61.Kf2 Kg5 62.Ke1 Kxg4
+63.Kd2 f5 64.Kc1 f4 65.Kb2 f3 0-1

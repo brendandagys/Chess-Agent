@@ -1,0 +1,89 @@
+[Event "Exhibition Game"]
+[Site "Riga RUE"]
+[Date "1913.12.30"]
+[EventDate "1914.??.??"]
+[Round "?"]
+[Result "0-1"]
+[White "Aron Nimzowitsch"]
+[Black "Jose Raul Capablanca"]
+[ECO "C50"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "128"]
+
+1. e4 {Notes by Capablanca.} e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bc4
+{The normal move, 4. Bb5, is stronger. Nimzowitsch must have
+had some new idea in mind when he chose this line in
+preference to the other which he generally adopts.} 4...Bc5
+{If 4... Bb4 5. Nd5 gives White an excellent game.} 5. d3 d6
+6. Bg5 Be6 {With the idea of driving the Queen's Bishop back
+at the proper time by ...h6 and ...g5, and thus bringing the
+game to a position full of complications and unknown
+possibilities where Black hoped to outplay his adversary.}
+7. Bb5 h6 8. Bh4 Bb4 {To prepare against d3-d4, after or
+before Bxc6 which was the intention indicated by White's
+7.Bb5.} 9. d4 Bd7 10. O-O Bxc3 11. bxc3 g5 {There were a dozen
+select spectators around our table, one of them Nimzowitsch's
+father, a fairly good player, and they looked at one another
+when they saw the bold course I was pursuing, reckless on my
+part, they thought, and bound to bring disaster, especially
+after my next move 12...Nxe4, when I had not castled and my
+King was in the center of the board.} 12. Bg3 Nxe4 13. Bxc6
+{Not the best way to continue the attack, as by exchanging
+pieces the Black King will not be submitted to the strong
+attack that would be necessary to compensate for the material
+advantage obtained by Black and the disarrangement of White's
+Queenside pawns. 13. Qd3 was the best move to keep up the
+pressure.} 13...Bxc6 14. dxe5 dxe5 15. Bxe5 {Some people have
+suggested 15. Nxe5. It has its good and bad points, but at all
+events Black will come out with the better game in any
+variation.} 15...Qxd1 16. Raxd1 16... f6 $1 {The key to my
+maneuver in this variation. I had counted on it, together with
+17...Kf7, when I played 11...g5.} 17. Bd4 {17. Bxc7 would
+leave the c-file open for the Black Rooks to act against
+White's c-pawns. My opponent must have thought that on account
+of the Bishops of opposite colors he had a safe game.}
+17... Kf7 {Now the Black King is much more useful than
+White's.} 18. Nd2 18... Rhe8 {Notwithstanding the Bishops of
+opposite colors I did not hesitate to exchange. Those who wish
+to learn should do well in carefully studying this game. It is
+one of the finest endings I ever played, and I have had very
+often the great pleasure of hearing my opponent pay tribute to
+the skill displayed by me in winning it.} 19. f3 Nxd2 20. Rxd2
+Rad8 21. g4 Bb5 22. Rb1 Ba6 23. Rbd1 {Not 23. Kf2 because of
+23...c5! 24. Be3 Rxd2+ 25. Bxd2 25... Re2+, winning a piece.}
+23... Re2 $1 {Still exchanging.} 24. Rxe2 Bxe2 25. Re1 Bxf3
+26. Rf1 26. c5 $1 {The move that gives Black the advantage.}
+27. Bxf6 {If now 27. Rxf3 cxd4 28. Rd3 Rc8 and for all
+practical purposes Black is a pawn ahead. My opponent chose
+the other line of play in order to keep Bishops of opposite
+colors, which he thought should give him a draw.} 27...Rd1
+28. Be5 Rxf1+ 29. Kxf1 29... Bxg4 {The ending is now won by
+force. Several months after the game was played, when
+Nimzowitsch had come to St. Petersburg to play in the
+All-Russian Masters Tournament, he told me that he had studied
+the game and thought that he had finally found a way to draw
+this ending. Although I had not seen the game since it was
+played I offered to make him a small sporting bet, giving him
+odds of a draw in any position from now on. The offer was
+immediately accepted and we sat down. In a few moves he saw
+that his idea was wrong and gave up the game.} 30. a4 Ke6
+31. Bb8 {It would seem that had White played 31. Bg7 and then
+followed with a4-a5, he could have drawn; but such is not the
+case, as 31...h5 32. a5 a6 would also have won, though taking
+much longer.} 31...a5 $1 32. Ke1 {White cannot attack the pawn
+by 32. Bc7 as 32...b5! wins.} 32...Kd5 33. Kd2 Bd7 34. Bc7 Kc6
+35. Bd8 {White cannot take the pawn with 35. Bxa5 because of
+35...b6} 35... b6 36. c4 Kb7 37. Kc3 Bxa4 38. Kb2 Bd7 39. Kb3
+Be6 40. Kc3 a4 41. Kd3 Kc6 42. Kc3 g4 43. Bh4 h5 44. Bg3 a3
+45. Kb3 Bxc4+ $1 {If White now plays 46.Kxc4 then 46... a2
+47. Be5 h4 48. Kb3 g3 49. hxg3 49... h3! and wins, as one of
+the two Rook's pawns will Queen.} 46. Kxa3 b5 47. c3 Kd5
+48. Bf2 Be2 {In order to make room for the King at c4.}
+49. Kb3 Bd1+ 50. Kb2 Kc4 51. Kc1 Bf3 52. Kd2 b4 53. cxb4 cxb4
+54. Bh4 Be4 55. Bf6 Bg6 56. Bh4 b3 57. Bf6 h4 58. Ke3 g3
+59. hxg3 h3 60. Kf2 Bf5 {So as to prevent the advance of
+White's single pawn. Now the Black King marches down to the
+support of the b-pawn and wins the Bishop, and then comes back
+and forces the other pawn to the eighth rank winning.} 61. g4
+Bxg4 62. Kg3 Kd3 63. Kh2 Kc2 64. Kg3 b2 {White resigns.} 0-1

@@ -1,0 +1,86 @@
+[Event "Hamburg"]
+[Site "Hamburg GER"]
+[Date "1910.07.20"]
+[EventDate "1910.07.18"]
+[Round "3"]
+[Result "0-1"]
+[White "Abraham Speijer"]
+[Black "Alexander Alekhine"]
+[ECO "C15"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "96"]
+
+1.e4 {Notes by Alexander Alekhine.} e6 2.d4 d5 3.Nc3 Bb4 {This
+move is far better than its reputation. Its object is to
+simplify the position, at any rate in the variation usually
+adopted by White, starting 4.exd5, a simplification which
+allows Black more easily to evolve a plan of development. It
+has been adopted with success at various times by
+Neimzowitch.} 4.Bd2 {This idea is interesting but does not
+produce any advantage if Black makes the correct reply. The
+most usual move here is 4.exd5, the consequences of 4.e5 c5
+appearing to be rather in Black's favor (compare
+Dr. Lasker-Maroczy, New York, 1924).} 4...Ne7 {Simplest, for
+the complications resulting from 4...dxe4 5.Qg4 would give
+White attacking chances: e.g.: 1) 5...Nf6 6.Qxg7 Rg8 7.Qh6
+Qxd4 8.O-O-O, threatening 9.Bg5. 2) 5...Qxd4 6.Nf3 Qf6 7.Qxe4
+followed by O-O-O with good attacking chances for White.}
+5.exd5 {White was threatened with: 5...dxe4 and 6...Qxd4.}
+5...exd5 6.Qf3 {This is not a normal developing move. As the
+sequel will show, most of the White pieces will find
+themselves on unfavorable squares. It might have been better
+to play 6.Bd3 followed by 7.Nge2; 8.O-O, etc.} 6...Nbc6
+7.Bb5 {compulsory after the last move.} 7...O-O 8.Nge2 Bf5
+{The Black pieces, on the other hand, are well placed for
+concerted action.} 9.O-O-O {White's object in playing 6.Qf3
+was to castle on the queenside; this is a strategic error,
+however, for on the king's side White has no prospect which
+might compensate for Black's attack on the queen's
+side. 9.Rc1, followed by 10.O-O, was certainly not so bad.}
+9...a6 {White's b5 bishop must be eliminated in order to allow
+a black knight to occupy c4.} 10.Bd3 Bxd3 11.Qxd3 Na5 {!}
+12.a3 {White takes advantage of the opportunity to force the
+exchange of one of Black's attacking pieces, for 12...Bd6
+fails on account of 13.Nxd5, unmasking the white bishop.}
+12...Bxc3 13.Bxc3 Nc4 14.Rde1 Nc6 {Strategically, the game is
+already won by Black, but the latter here makes a slight
+tactical error, which allows his opponent to exchange
+queens. The simple plan of attack to lead to an easy win would
+be: a4 followed by b4-3, etc. The decision of the game could
+and should have been brought about by a direct attack on the
+king.} 15.Nf4 Qd6 {Against any other move, White's reply
+16.Qf3 would have been still more awkward for Black.} 16.Qf3
+Rad8 {The plausible Rfd1 would have been wrong, for then
+17.Nxd5 and if ...Qxd5; 18.Re8+, etc. However, White now
+succeeds in exchanging queens.} 17.Nd3 a5 {Better late than
+never!} 18.Qf4 {Else Black's attack would become
+irresistible.} 18...Qxf4+ {If 18...Qd7; White could already
+try a counter-demonstration with 19.h4 followed by Rh3.}
+19.Nxf4 b5 {This advance remains strong even after the
+exchange of queens, for the white bishop is very badly
+placed.} 20.Nd3 Rb8 21.Ne5 {There does not appear to be any
+other method of saving the pawn. But after the exchange of
+knights Black finds fresh resources for the attack, with the
+aid of his c7-pawn.} 21...N6xe5 22.dxe5 c5 {Less good would
+have been: 22...b4 23.axb4 axb4 24.Bd4 Ra8 25.b3, etc.} 23.b3
+{again the only chance against the threat of b4, etc.} 23...d4
+{The winning move, for this pawn will exert a decisive
+pressure in the ensuing rook end-game. Should White avoid the
+exhchange of pieces by 24.Bb2, Black obtains a winning
+advantage by: 24...Nb6 followed by ...a4.} 24.bxc4 dxc3 25.Re3
+{Compulsory, for after 25.cxb5 Rxb5 this move would not be
+feasible because of 26...Rfb8.} 25...b4 26.a4 Rbd8 {For the
+better appreciation of this end-game, it may be pointed out
+that White cannot here offer the exchange of both rooks; e.g.:
+27.Rd1 Rxd1+ 28.Kxd1 Rd8+ 29.Rd3 Rxd3+ 30.cxd3 g5 31.h3 h5
+32.g3 (if f3 then ...h4) g4 followed by Kf8, Ke7, Ke6 and Kxe5
+winning. White's subsequent moves are therefore forced.}
+27.Rhe1 Rd4 28.Re4 Rxe4 29.Rxe4 Rd8 30.e6 {If 30.Re2 Black
+would win a pawn by 30...Rd4.} 30...fxe6 31.Rxe6 Rd2 {After
+this incursion by the black rook the remainder of the game is
+purely a matter of technique.} 32.Re5 Rxf2 33.Kb1 Rf1+ 34.Ka2
+Rc1 35.Rxc5 Rxc2+ 36.Kb1 Rb2+ 37.Kc1 Rxg2 38.Rb5 {to parry the
+threat of ...b3.} 38...Kf7 39.c5 Ke6 40.c6 Kd6 41.c7 Kxc7
+42.Rxa5 Rxh2 43.Rb5 Rb2 44.a5 Kc6 45.Rb8 Kc5 46.a6 Ra2 47.Rc8+
+Kb5 48.Rb8+ Kc4 0-1

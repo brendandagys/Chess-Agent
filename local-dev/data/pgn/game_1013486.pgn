@@ -1,0 +1,48 @@
+[Event "Munich"]
+[Site "Munich GER"]
+[Date "1942.09.24"]
+[EventDate "1942.??.??"]
+[Round "10"]
+[Result "1-0"]
+[White "Alexander Alekhine"]
+[Black "Braslav Rabar"]
+[ECO "E02"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "52"]
+
+1. d4 {Notes by Alekhine} Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4
+5. Qa4+ Bd7 6. Qxc4 Bc6 7. Nf3 Bd5 {Black loses too many tempi
+with these bishop moves. Better is 7...Nbd7 and if 8 Nc3 then
+8...Nb6 9 Qd3 Bb4, as it was played in the game Junge-Alekhine
+in the same tournament.} 8. Qd3 c5 9. Nc3 Bc6 {If 9...cxd4
+there would follow 10 Nxd5 Qxd5 11 O-O with the strong threat
+of 12 Nxd4.}10. O-O Nbd7 11. Rd1 cxd4 {If 11...Be7 then 12 e4
+and White with the threat of 13 d5, would practically force
+the exchange at d4, which would guarantee him the advantage of
+the bishop pair.} 12. Nxd4 Bxg2 13. Kxg2 Be7 14. Qf3 {The
+queen now exerts strong pressure on the enemy queen's side.}
+Qb6 {this move will be refuted by energetic combinative
+play. but 14...Qb8 15 Nb3 with the threat of 16 Bf4 would be
+equally unsatisfactory.} 15. Be3 {! The consequences of this
+move are not very difficult to calculate, but it is
+interesting to prove that from this moment onwards Black
+already lacks any satisfactory defence. Against 15 Qxb2 White
+replies 16 Ncb5 and if 15...Ne5 there would follow 16 Ndb5!}
+O-O 16. Nf5 Bc5 {This apparent salvation will be refuted by a
+well-concealed combination. Nor would the alternative 16...Qd8
+17 Nxe7+ Qxe7 18 Qxb7 Rfb8 19 Qc7 Rxb2 20 Bd4 have saved the
+game.} 17. Na4 Qa5 18. Nxc5 Nxc5 19. Nxg7 {! This wins at
+least a pawn and leads to a simply won ending. The only reply
+- excluding the text - would be 19...Nce4, against which White
+would first have forced the black queen to abandon the fifth
+rank and would then have occupied the long diagonal with the
+bishop, with decisive effect: 20 b4! Qe5 21 Bf4 Qb5 (or
+21...Qc3 22 Nh5!!) 22 a4! Qxb4 23 Be5 etc.} Kxg7 20. Bd4 {The
+strength of this move lies mainly in the fact that after
+20...Nd7 White simply plays 21 Bc3, with the unavoidable
+threat of 22 Rxd7.} Ne4 21. Qxe4 Qf5 {The endgame that follows
+is without any technical difficulties.} 22. Qxf5 exf5 23. Rac1
+Rfe8 24. Rc7 Rxe2 25. Rxb7 Kg6 26. Bxf6 Kxf6 27. Rd6+ {If
+27...Kg7 there follows 28 Rdd7 Rf8 29 Kf3 Rc2 30 Rdc7 Rd2 31
+Ke3.} 1-0

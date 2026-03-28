@@ -1,0 +1,38 @@
+[Event "Hastings"]
+[Site "Hastings ENG"]
+[Date "1895.08.05"]
+[EventDate "1895.08.05"]
+[Round "1"]
+[Result "1-0"]
+[White "Wilhelm Steinitz"]
+[Black "Beniamino Vergani"]
+[ECO "C11"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "81"]
+
+1. e4 {Notes by Pillsbury} e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7
+5. Nce2 c5 6. c3 cxd4 {A premature exchange. Black obtains a
+very good game by ...Qb6. 7 f4 Nc6 8 Nf3 f6; in fact White
+seems unable to develop his game so as to obtain any attack.}
+7. cxd4 Nc6 8. f4 Bb4+ {...Be7 was preferable.} 9. Nc3 O-O
+10. Nf3 f6 11. a3 Bxc3+ 12. bxc3 a6 13. a4 Na5 14. Bd3 Qc7
+15. Qc2 f5 16. g4 {This powerful advance gives White a
+tremendous attack.} g6 17. gxf5 exf5 18. h4 Nb6 19. h5
+{Pursuing the attack with precision and vigour.} Kg7 20. hxg6
+h6 {If ...h6 21 Qh2 with a winning position.} 21. Qh2 Rh8 {If
+...Qxc3+ 22 Ke2 Rh8 23 Bd2 winning a clear piece.} 22. Qh4 Qd8
+23. Ba3 Nc6 24. Qh5 Nc4 25. Nh4 Nxa3 26. Nxf5+ {Rxa3 would
+have won the second pawn, and keep the attack well in hand.}
+Bxf5 27. Qxf5 Qf8 {...Rf8 would of course be met by 28 Qh5,
+etc. But the correct play was ...Qe7 28 Qf6+ Qxf6 29 exf6+
+Kxf6 30 Rxa3 Rae8+ with a very good chance of
+resistance. White could not in the foregoing continue 28 Rxa3
+on account of Raf8 followed by ...Qxa3. After this point the
+game is lost for Black.} 28. Qd7+ Qe7 29. Qxd5 {White is bound
+to win the imprisoned knight and increases his pawn force
+before doing so.} Rad8 30. Qb3 Rhf8 31. Qxa3 Qxa3 32. Rxa3
+Rxf4 33. Ke2 Ne7 34. Rb1 Rd7 35. Rab3 Nd5 36. c4 Rxd4 {A last
+desperate attempt, and leading to rather an amusing finish.}
+37. cxd5 R4xd5 38. Rxb7 Rxd3 39. e6 Rd2+ 40. Ke1 Rd1+ 41. Rxd1
+1-0

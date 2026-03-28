@@ -1,0 +1,32 @@
+[Event "6th American Chess Congress"]
+[Site "New York, NY USA"]
+[Date "1889.04.08"]
+[EventDate "1889.03.25"]
+[Round "13"]
+[Result "1-0"]
+[White "Henry Edward Bird"]
+[Black "David Graham Baird"]
+[ECO "C30"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "77"]
+
+1.e4 {Notes by Steinitz.} e5 2.f4 Bc5 3.Nf3 d6 4.c3 {The old
+attack which has rightly fallen into disuse as Bc4 is
+stronger.} Bg4 5.Bc4 Nc6 6.Qb3 Bxf3 {Inferior to 6...Qd7
+7.Bxf7+ Qxf7 8.Qxb7 Kd7 9.Qxa8 Bxf3 10.gxf3 Qxf4, with a
+strong attack.} 7.Bxf7+ Kf8 8.Bxg8 Rxg8 9.gxf3 Qh4+ 10.Kd1 Qf2
+11.Kc2 Re8 12.Qc4 exf4 13.Qf1 Qxf1 14.Rxf1 g5 15.d4 Bb6 16.a4
+a5 17.Nd2 Nb8 18.Nc4 Nd7 19.b3 Re6 20.Kd3 Rh6 21.Ra2 Rh3
+22.Rg2 Rg6 23.Ke2 Kf7 24.Rfg1 Kf6 25.Bd2 Rh5 26.Be1 Kg7 27.Bf2
+Kh6 {There was good and sound manouvering in White's play
+since Queens were exchanged, whereas Black, with his K side
+attack, has only blocked his KR. It is also difficult to see
+the object of the text move.} 28.Nb2 c6 29.Nd3 Bd8 30.h4 Nf8
+{There was no good answer to White's fine last move. If
+30...gxh4 31.Rxg6+ hxg6 32.Nxf4 Rxg5 33.Bxh4, and wins.}
+31.hxg5 Bxg5 32.Be1 Rf6 33.c4 b6 34.Bc3 Rf7 35.e5 d5 36.c5
+bxc5 37.Nxc5 Ra7 38.Bd2 Ra8 {A piece and therefore the game,
+is lost forthwith, but he had only the choice of evils. If
+38...Rc7 39.Bxa5, etc, or 38...Ng6 39.Ne6, and wins.} 39.Rxg5
+1-0
