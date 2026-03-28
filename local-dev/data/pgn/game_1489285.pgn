@@ -1,0 +1,25 @@
+[Event "Composition"]
+[Site "?"]
+[Date "1737.??.??"]
+[EventDate "?"]
+[Round "-"]
+[Result "0-1"]
+[White "NN"]
+[Black "Philip Stamma"]
+[ECO "C50"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "26"]
+
+1.e4 {First game. Notes by Philipp Stamma from "Stamma on the
+Game of Chess" from 1737.} e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 d6
+5.Ng5 {This move is exceptionable, the attack being premature,
+it would be better to castle or to play Q. B. P. one square
+[5.c3].} Qf6 {This is a better move than playing K. Kt. to
+K. R. third square [5...Nh6].} 6.Bxf7+ {White instead of this
+move should castle, or play Q. to K. second square [6.Qe2].}
+Kf8 7.O-O h6 8.Bxg8 hxg5 9.Bd5 Nd4 {This is a very good move,
+as it prevents the White from playing his Q. to K. B. third
+square [Qf3], which would considerably weaken the attack of
+the Black.} 10.c3 Qh6 11.h3 Bxh3 12.cxd4 Bxg2 13.Kxg2 Qh3+ 
+{Check mate the next move.} 0-1
