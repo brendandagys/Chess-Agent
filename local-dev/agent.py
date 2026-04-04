@@ -16,18 +16,21 @@ import json
 import logging
 import os
 
-from dotenv import load_dotenv
+import chess_engine as _engine
+
+from dotenv import load_dotenv # type: ignore
 
 # Load .env from local-dev/ — variables already set in the shell take precedence.
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"), override=False)
 
-import boto3  # noqa: E402  (imported after env vars are set)
-from langchain.agents import create_agent
-from langchain.tools import tool
-from langchain_aws import BedrockEmbeddings, ChatBedrock
-from langchain_community.vectorstores import FAISS
-from langchain_core.documents import Document
-from langchain_core.messages import HumanMessage
+import boto3  # type: ignore  (imported after env vars are set)
+from langchain.tools import tool  # type: ignore
+from langchain_aws import BedrockEmbeddings, ChatBedrock  # type: ignore
+from langchain_community.vectorstores import FAISS  # type: ignore
+from langchain_core.documents import Document  # type: ignore
+from langchain_core.messages import HumanMessage  # type: ignore
+from langgraph.prebuilt import create_react_agent  # type: ignore
+
 
 from loaders.pdf_loader import PDFLoader
 from loaders.pgn_loader import PGNLoader
@@ -87,7 +90,7 @@ def get_embeddings():
 # ---------------------------------------------------------------------------
 
 def _split_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP):
-    """Split text into overlapping chunks — identical algorithm to ingestion/app.py."""
+    """Split text into overlapping chunks."""
     chunks = []
     start = 0
     while start < len(text):
@@ -96,7 +99,7 @@ def _split_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OV
     return chunks
 
 
-def _load_documents() -> list[Document]:
+def _load_txt_documents() -> list[Document]:
     """Read every .txt file under data/ and return a list of LangChain Documents."""
     docs = []
     for filename in sorted(os.listdir(DATA_DIR)):
@@ -200,7 +203,7 @@ def get_vectorstore() -> FAISS:
         logger.info("Building FAISS index from %s", DATA_DIR)
 
         docs = [
-            *_load_documents(),
+            *_load_txt_documents(),
             *_load_pdf_documents(),
             *_load_pgn_documents(),
             *_load_wikibooks_documents(),
@@ -215,24 +218,125 @@ def get_vectorstore() -> FAISS:
 
 
 # ---------------------------------------------------------------------------
-# Tool implementations
+# Tool implementations — chess engine
 # ---------------------------------------------------------------------------
 
 @tool
-def chess_engine(fen: str) -> str:
-    """Evaluate a chess position. Input should be a FEN string."""
-    try:
-        import chess_engine as _chess_engine  # optional native module — not required for local dev
+def get_top_moves(fen: str, n: int = 5) -> str:
+    """Get the best moves for a position, ranked by engine evaluation.
 
-        score = _chess_engine.evaluate(fen)
-        return json.dumps({"fen": fen, "evaluation": score})
-    except ImportError:
-        return json.dumps({"error": "chess_engine native module not available in local dev", "fen": fen})
+    This is your PRIMARY move-analysis tool. Call it before recommending any
+    move to the user. Returns up to ``n`` moves with scores in pawns from the
+    side-to-move's perspective (positive = good for the side to move).
+
+    Args:
+        fen: FEN string of the position to analyze.
+        n: Number of top moves to return (default 5).
+
+    Returns:
+        JSON list of ``{"move": "<UCI>", "score": <float>}`` objects, best first.
+    """
+    results = _engine.get_top_moves(fen, n)  # type: ignore
+    return json.dumps([{"move": m.mv, "score": m.score} for m in results])
 
 
 @tool
-def rag_retrieval(query: str) -> str:
-    """Retrieve relevant chess knowledge from the local FAISS document store. Input should be a natural language query."""
+def evaluate_position(fen: str) -> str:
+    """Get a static evaluation of a position in pawns from White's perspective.
+
+    Positive values mean White is better; negative values mean Black is better.
+    Use this for a quick overall assessment of who stands better. For comparing
+    candidate moves against each other, prefer ``get_top_moves`` instead.
+
+    Args:
+        fen: FEN string of the position to evaluate.
+
+    Returns:
+        JSON object ``{"fen": "<FEN>", "evaluation": <float>}``.
+    """
+    score = _engine.evaluate_position(fen)  # type: ignore
+    return json.dumps({"fen": fen, "evaluation": score})
+
+
+@tool
+def apply_moves(fen: str, moves: list[str]) -> str:
+    """Apply one or more UCI moves to a position and return the resulting FEN.
+
+    Use this for "what-if" analysis: apply a candidate move (or a sequence of
+    moves), then call ``get_top_moves`` or ``evaluate_position`` on the
+    resulting position to explore continuations.
+
+    Moves MUST be in UCI format (e.g. ``e2e4``, ``e7e8q`` for promotion).
+
+    Args:
+        fen: FEN string of the starting position.
+        moves: List of UCI move strings to apply in order.
+
+    Returns:
+        JSON object ``{"resulting_fen": "<FEN>"}``.
+    """
+    result_fen = _engine.apply_moves(fen, moves)  # type: ignore
+    return json.dumps({"resulting_fen": result_fen})
+
+
+@tool
+def get_legal_moves(fen: str) -> str:
+    """Get all legal moves in a position as UCI strings.
+
+    ALWAYS call this to verify that a move you intend to recommend is actually
+    legal before presenting it to the user. Also useful for enumerating
+    candidate moves for tactical analysis.
+
+    Args:
+        fen: FEN string of the position.
+
+    Returns:
+        JSON list of UCI move strings (e.g. ``["e2e4", "d2d4", ...]``).
+    """
+    moves = _engine.get_legal_moves(fen)  # type: ignore
+    return json.dumps(moves)
+
+
+@tool
+def is_square_attacked(fen: str, square: str, by_color: str) -> str:
+    """Check whether a specific square is attacked by a given side.
+
+    Use this to verify tactical observations about attacks, pins, weak squares,
+    or king safety. For example, check if a king's square is attacked to
+    confirm a check, or verify that an outpost square is not controlled by
+    enemy pawns.
+
+    Args:
+        fen: FEN string of the position.
+        square: Algebraic square name (e.g. ``"e4"``, ``"g7"``).
+        by_color: ``"white"`` (or ``"w"``) / ``"black"`` (or ``"b"``).
+
+    Returns:
+        JSON object ``{"square": "<sq>", "by": "<color>", "attacked": <bool>}``.
+    """
+    attacked = _engine.is_square_attacked(fen, square, by_color)  # type: ignore
+    return json.dumps({"square": square, "by": by_color, "attacked": attacked})
+
+
+# ---------------------------------------------------------------------------
+# Tool implementations — RAG knowledge base
+# ---------------------------------------------------------------------------
+
+@tool
+def chess_knowledge(query: str) -> str:
+    """Search the chess knowledge base for relevant information.
+
+    Use natural-language queries about openings, strategies, tactics, endgame
+    techniques, or specific positions. Include the opening name and/or ECO code
+    in your query when available — this dramatically improves retrieval quality.
+
+    Returns text passages from annotated master games, chess books, opening
+    theory, and strategy guides.
+
+    Args:
+        query: Natural language search query (e.g. "Sicilian Najdorf B90
+               pawn structure plans", "rook endgame technique king activity").
+    """
     results = get_vectorstore().similarity_search(query, k=5)
     if not results:
         logger.info("RAG | query=%r → no results", query)
@@ -249,21 +353,122 @@ def rag_retrieval(query: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Agent definition — identical tool set to analyze/app.py
+# System prompt & context message builder
 # ---------------------------------------------------------------------------
 
-SYSTEM_PROMPT = (
-    "You are a chess analysis assistant. You help users analyze chess positions, "
-    "suggest moves, and explain chess strategy."
-)
+SYSTEM_PROMPT = """\
+You are an expert chess analyst with access to a chess engine and a knowledge \
+base of annotated master games, opening theory, and strategy guides.
 
+## Your tools
+
+You have six tools. Use them proactively — do not guess at evaluations, legal \
+moves, or opening theory when you can look them up.
+
+### Chess engine tools
+- **get_top_moves** — your primary analysis tool. Call it to get the best moves \
+ranked by engine score before making any move recommendations.
+- **evaluate_position** — quick overall assessment (from White's perspective). \
+Prefer get_top_moves when you need to compare candidate moves.
+- **apply_moves** — apply UCI moves to a position to get the resulting FEN. \
+Use this for "what-if" lookahead: apply a candidate, then call get_top_moves \
+on the result to see the opponent's best replies.
+- **get_legal_moves** — enumerate all legal moves. ALWAYS verify that any \
+move you recommend appears in this list before presenting it to the user.
+- **is_square_attacked** — check if a square is attacked by a given side. \
+Useful for verifying tactical claims (checks, pins, weak squares, king safety).
+
+### Knowledge base
+- **chess_knowledge** — search annotated games, opening theory, and strategy \
+guides. When the opening name or ECO code is provided in the position context, \
+include it in your query for much better results. For example, query \
+"Sicilian Najdorf B90 middlegame plans" rather than just "middlegame plans".
+
+## Move format conventions
+
+- When **calling tools**, always use UCI notation (e.g. e2e4, g1f3, e7e8q).
+- When **writing to the user**, use standard algebraic / PGN notation \
+(e.g. e4, Nf3, e8=Q) for readability.
+
+## Workflow
+
+1. Read the position context (FEN, moves, opening, game phase, goal).
+2. Call **get_top_moves** to understand the engine's assessment.
+3. Call **chess_knowledge** with a targeted query that includes the opening \
+name and/or game phase for relevant theory and examples.
+4. Synthesize the engine analysis with the retrieved knowledge.
+5. Before recommending any specific move, call **get_legal_moves** to verify \
+it is legal.
+6. If deeper analysis is needed, use **apply_moves** to explore a line, then \
+call **get_top_moves** on the resulting position.
+
+## Adapting to the goal
+
+The user provides a **Goal** describing the kind of analysis they want. \
+Adjust your tone, depth, and focus accordingly:
+
+- **Coaching / teaching** — Address the player whose turn it is directly \
+("you should consider…"). Explain threats, candidate moves, and the reasoning \
+behind them at an accessible level. Highlight mistakes and suggest improvements.
+- **Expert commentary** — Narrate objectively in the third person like a \
+tournament broadcast commentator. Highlight critical moments, brilliancies, \
+and subtle positional ideas.
+- **Deep analysis** — Be thorough and engine-backed. Show concrete variations \
+with evaluations. Compare multiple candidate moves.
+- For any other goal, infer the appropriate style from the request and follow \
+the same principle: use your tools to back up every claim with evidence.
+
+## Output conventions
+
+- Use PGN notation in prose (e.g. Nf3, not g1f3).
+- Mention evaluation scores where relevant (e.g. "+0.4 in White's favor").
+- Structure longer responses with clear sections or bullet points.
+- When suggesting moves, always show at least the top 2–3 candidates with \
+their evaluations so the user understands the alternatives.
+"""
+
+ALL_TOOLS = [
+    get_top_moves,
+    evaluate_position,
+    apply_moves,
+    get_legal_moves,
+    is_square_attacked,
+    chess_knowledge,
+]
+
+
+def build_context_message(
+    fen: str,
+    pgn_moves: str = "",
+    opening_name: str = "",
+    game_phase: str = "",
+    goal: str = "",
+) -> str:
+    """Assemble the structured position-context message for the agent."""
+    parts = [f"Position (FEN): {fen}"]
+    if pgn_moves:
+        parts.append(f"Moves played: {pgn_moves}")
+    if opening_name:
+        parts.append(f"Opening: {opening_name}")
+    if game_phase:
+        parts.append(f"Game phase: {game_phase}")
+    parts.append("")  # blank line before goal
+    parts.append(f"Goal: {goal or 'Analyze this position.'}")
+    return "\n".join(parts)
+
+
+# ---------------------------------------------------------------------------
+# Agent construction
+# ---------------------------------------------------------------------------
+
+MODEL_ID= "us.anthropic.claude-sonnet-4-6"
 
 def build_agent():
     llm = ChatBedrock(
-        model_id="anthropic.claude-3-haiku-20240307-v1:0",
+        model_id=MODEL_ID,
         model_kwargs={"temperature": 0},
     )
-    return create_agent(llm, [chess_engine, rag_retrieval], system_prompt=SYSTEM_PROMPT)
+    return create_react_agent(model=llm, tools=ALL_TOOLS, prompt=SYSTEM_PROMPT)
 
 
 # ---------------------------------------------------------------------------
@@ -274,8 +479,9 @@ if __name__ == "__main__":
     # Warm up the vector store (idempotent — embeds docs on first run only)
     get_vectorstore()
 
-    agent_executor = build_agent()
-    print("\nChess Agent ready (local dev, FAISS). Type 'quit' or Ctrl-C to exit.\n")
+    agent = build_agent()
+    print("\nChess Agent ready (local dev, FAISS). Type 'quit' or Ctrl-C to exit.")
+    print("Enter a FEN to analyze, or free-form text. Fields are optional.\n")
 
     while True:
         try:
@@ -287,7 +493,20 @@ if __name__ == "__main__":
         if not user_input or user_input.lower() in {"quit", "exit"}:
             break
 
-        result = agent_executor.invoke({"messages": [HumanMessage(content=user_input)]})
+        # Try to parse structured JSON input; fall back to plain text
+        try:
+            data = json.loads(user_input)
+            message = build_context_message(
+                fen=data.get("fen", ""),
+                pgn_moves=data.get("pgn_moves", ""),
+                opening_name=data.get("opening_name", ""),
+                game_phase=data.get("game_phase", ""),
+                goal=data.get("goal", ""),
+            )
+        except (json.JSONDecodeError, AttributeError):
+            message = user_input
+
+        result = agent.invoke({"messages": [HumanMessage(content=message)]})
         messages = result.get("messages", [])
         output = messages[-1].content if messages else ""
         print(f"\nAgent: {output}\n")

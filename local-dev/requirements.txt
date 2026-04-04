@@ -5,6 +5,7 @@ langchain
 langchain-aws
 langchain-community
 langchain-core
+langgraph
 numpy
 pypdf
 python-dotenv
