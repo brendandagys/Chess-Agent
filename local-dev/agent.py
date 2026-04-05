@@ -104,6 +104,9 @@ the same principle: use your tools to back up every claim with evidence.
 - Structure longer responses with clear sections or bullet points.
 - When suggesting moves, always show at least the top 2–3 candidates with \
 their evaluations so the user understands the alternatives.
+- Keep responses to within 500-1000 characters to maintain focus and \
+readability. For deeper analysis, prioritize the most critical lines and \
+ideas rather than trying to cover everything.
 """
 
 
