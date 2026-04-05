@@ -2,7 +2,7 @@ import os
 import re
 from typing import List
 
-from langchain_core.documents import Document
+from langchain_core.documents import Document # type: ignore
 
 
 class PGNLoader:

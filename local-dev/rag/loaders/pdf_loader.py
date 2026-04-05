@@ -1,7 +1,7 @@
 from typing import List
 
-from langchain_community.document_loaders import PyPDFLoader
-from langchain_core.documents import Document
+from langchain_community.document_loaders import PyPDFLoader # type: ignore
+from langchain_core.documents import Document # type: ignore
 
 
 class PDFLoader:

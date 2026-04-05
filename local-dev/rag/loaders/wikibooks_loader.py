@@ -1,9 +1,9 @@
+import requests # type: ignore
 from typing import List, Optional
 from dataclasses import dataclass
-import requests
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, Tag # type: ignore
 
-from langchain_core.documents import Document
+from langchain_core.documents import Document # type: ignore
 
 
 @dataclass
