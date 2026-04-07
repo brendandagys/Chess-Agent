@@ -3,8 +3,10 @@ import logging
 import os
 import urllib.parse
 
-import boto3
-from pinecone import Pinecone
+import boto3  # type: ignore
+from pinecone import Pinecone  # type: ignore
+
+from loaders import get_loader
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -17,6 +19,9 @@ _pinecone_index = None
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 UPSERT_BATCH_SIZE = 100
+
+# File extensions that should be read as raw bytes (not UTF-8 decoded)
+_BINARY_EXTENSIONS = {".pdf"}
 
 
 def get_s3():
@@ -41,10 +46,10 @@ def get_pinecone_index():
     return _pinecone_index
 
 
-def load_from_s3(bucket, key):
-    """Load a document from S3 and return its text content."""
+def load_bytes_from_s3(bucket, key):
+    """Load a document from S3 and return its raw bytes."""
     response = get_s3().get_object(Bucket=bucket, Key=key)
-    return response["Body"].read().decode("utf-8")
+    return response["Body"].read()
 
 
 def split_text(text, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
@@ -58,7 +63,7 @@ def split_text(text, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
     return chunks
 
 
-def embed(text):
+def get_embedding(text):
     """Generate an embedding using Bedrock Titan Embed Text v2."""
     response = get_bedrock_runtime().invoke_model(
         modelId="amazon.titan-embed-text-v2:0",
@@ -82,31 +87,52 @@ def lambda_handler(event, context):
     for record in event.get("Records", []):
         bucket = record["s3"]["bucket"]["name"]
         key = urllib.parse.unquote_plus(record["s3"]["object"]["key"])
+        ext = os.path.splitext(key)[1]
 
-        logger.info("Processing s3://%s/%s", bucket, key)
+        logger.info("Processing s3://%s/%s (ext=%s)", bucket, key, ext)
 
-        doc = load_from_s3(bucket, key)
-        chunks = split_text(doc)
+        LoaderClass = get_loader(key)
+        if LoaderClass is None:
+            logger.warning("No loader for extension %s — skipping %s", ext, key)
+            continue
 
-        logger.info("Document split into %d chunks", len(chunks))
+        raw = load_bytes_from_s3(bucket, key)
 
+        if ext.lower() in _BINARY_EXTENSIONS:
+            loader = LoaderClass(data=raw, source=key)
+        else:
+            loader = LoaderClass(text=raw.decode("utf-8"), source=key)
+
+        documents = loader.load()
+
+        # Chunk each document and embed
+        chunk_count = 0
         batch = []
-        for i, chunk in enumerate(chunks):
-            embedding = embed(chunk)
-            vector_id = f"{key}#chunk{i}"
-            batch.append({
-                "id": vector_id,
-                "values": embedding,
-                "metadata": {"text": chunk, "doc_id": key, "chunk_index": i},
-            })
+        for doc in documents:
+            for i, chunk_text in enumerate(split_text(doc["page_content"])):
+                embedding = get_embedding(chunk_text)
+                vector_id = f"{key}#chunk{chunk_count}"
 
-            if len(batch) >= UPSERT_BATCH_SIZE:
-                upsert_to_pinecone(batch)
-                batch = []
+                batch.append({
+                    "id": vector_id,
+                    "values": embedding,
+                    "metadata": {
+                        "text": chunk_text,
+                        **doc["metadata"],
+                        "doc_id": key,
+                        "chunk_index": i,
+                    },
+                })
+
+                chunk_count += 1
+
+                if len(batch) >= UPSERT_BATCH_SIZE:
+                    upsert_to_pinecone(batch)
+                    batch = []
 
         if batch:
             upsert_to_pinecone(batch)
 
-        logger.info("Finished ingesting %s (%d chunks)", key, len(chunks))
+        logger.info("Finished ingesting %s (%d chunks)", key, chunk_count)
 
     return {"statusCode": 200, "body": json.dumps({"message": "Ingestion complete"})}
