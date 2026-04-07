@@ -104,9 +104,9 @@ the same principle: use your tools to back up every claim with evidence.
 - Structure longer responses with clear sections or bullet points.
 - When suggesting moves, always show at least the top 2–3 candidates with \
 their evaluations so the user understands the alternatives.
-- Keep responses to within 500-1000 characters to maintain focus and \
-readability. For deeper analysis, prioritize the most critical lines and \
-ideas rather than trying to cover everything.
+- The total length of the responses should be limited to a maximum of 150 - 250 \
+words to maintain focus and readability. For deeper analysis, prioritize \
+the most critical lines and ideas rather than trying to cover everything.
 """
 
 
@@ -139,7 +139,7 @@ MODEL_ID= "us.anthropic.claude-sonnet-4-6"
 def build_agent():
     llm = ChatBedrock(
         model_id=MODEL_ID,
-        model_kwargs={"temperature": 0},
+        model_kwargs={"temperature": 0, "max_tokens": 2048},
     )
     return create_react_agent(model=llm, tools=ALL_TOOLS, prompt=SYSTEM_PROMPT)
 
