@@ -16,9 +16,9 @@ from langchain_aws import BedrockEmbeddings  # type: ignore
 from langchain_community.vectorstores import FAISS  # type: ignore
 from langchain_core.documents import Document  # type: ignore
 
-from loaders.pdf_loader import PDFLoader
-from loaders.pgn_loader import PGNLoader
-from loaders.wikibooks_loader import WikibooksLoader
+from .loaders.pdf_loader import PDFLoader
+from .loaders.pgn_loader import PGNLoader
+from .loaders.wikibooks_loader import WikibooksLoader
 
 logger = logging.getLogger(__name__)
 
@@ -26,8 +26,9 @@ logger = logging.getLogger(__name__)
 # Paths & chunking constants
 # ---------------------------------------------------------------------------
 _HERE = os.path.dirname(os.path.abspath(__file__))
-FAISS_INDEX_PATH = os.path.join(_HERE, "faiss_index")
-DATA_DIR = os.path.join(_HERE, "data/pgn")
+_LOCAL_DEV = os.path.dirname(_HERE)
+FAISS_INDEX_PATH = os.path.join(_LOCAL_DEV, "faiss_index")
+DATA_DIR = os.path.join(_LOCAL_DEV, "data/pgn")
 
 # Match the chunking constants used in ingestion/app.py
 CHUNK_SIZE = 500
