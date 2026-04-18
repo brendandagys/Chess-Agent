@@ -1,13 +1,11 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 Description: >
-  chess-agent
-
-  LangChain Chess Agent – HTTP API with Pinecone vector store and S3 ingestion pipeline
+  LangChain Chess Agent - HTTP API with Pinecone vector store and S3 ingestion pipeline
 
 Globals:
   Function:
-    Timeout: 60
+    Timeout: 300
     Runtime: python3.13
     Architectures:
       - arm64
@@ -26,7 +24,7 @@ Parameters:
     Description: Pinecone API key
   PineconeIndexName:
     Type: String
-    Default: chess-agent
+    Default: chess-rag
     Description: Name of the Pinecone index
 
 Resources:
@@ -74,6 +72,11 @@ Resources:
           Properties:
             Bucket: !Ref DocumentBucket
             Events: s3:ObjectCreated:*
+        S3Delete:
+          Type: S3
+          Properties:
+            Bucket: !Ref DocumentBucket
+            Events: s3:ObjectRemoved:*
 
   # ---- S3 Document Bucket ----
   DocumentBucket:

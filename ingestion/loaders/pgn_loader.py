@@ -10,8 +10,16 @@ class PGNLoader:
     """
 
     _KEEP_HEADERS = {
-        "Event", "White", "Black", "Date", "Result",
-        "ECO", "Opening", "Variation", "WhiteElo", "BlackElo",
+        "Event",
+        "White",
+        "Black",
+        "Date",
+        "Result",
+        "ECO",
+        "Opening",
+        "Variation",
+        "WhiteElo",
+        "BlackElo",
         "Annotator",
     }
 
@@ -56,11 +64,14 @@ class PGNLoader:
         current: List[str] = []
 
         for line in raw.splitlines(keepends=True):
-            if line.startswith("[") and current and not all(
-                l.startswith("[") or l.strip() == "" for l in current
+            if (
+                line.startswith("[")
+                and current
+                and not all(l.startswith("[") or l.strip() == "" for l in current)
             ):
                 games.append("".join(current))
                 current = []
+
             current.append(line)
 
         if current:
