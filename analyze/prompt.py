@@ -82,12 +82,15 @@ def build_context_message(
 ) -> str:
     """Assemble the structured position-context message for the agent."""
     parts = [f"Position (FEN): {fen}"]
+
     if pgn_moves:
         parts.append(f"Moves played: {pgn_moves}")
     if opening_name:
         parts.append(f"Opening: {opening_name}")
     if game_phase:
         parts.append(f"Game phase: {game_phase}")
+
     parts.append("")  # blank line before goal
     parts.append(f"Goal: {goal or 'Analyze this position.'}")
+
     return "\n".join(parts)
