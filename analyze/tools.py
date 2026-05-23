@@ -12,7 +12,7 @@ import chess_engine as _engine  # type: ignore
 
 from langchain.tools import tool  # type: ignore
 
-from analyze.pinecone import query_pinecone
+from pinecone_client import query_pinecone
 
 logger = logging.getLogger(__name__)
 
@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Tool implementations — chess engine
 # ---------------------------------------------------------------------------
+
 
 @tool
 def get_top_moves(fen: str, n: int = 5) -> str:
@@ -36,8 +37,20 @@ def get_top_moves(fen: str, n: int = 5) -> str:
     Returns:
         JSON list of ``{"move": "<UCI>", "score": <float>}`` objects, best first.
     """
-    results = _engine.get_top_moves(fen, n) # type: ignore
-    return json.dumps([{"move": m.mv, "score": m.score} for m in results])
+    logger.info("get_top_moves called", extra={"fen": fen, "n": n})
+    try:
+        results = _engine.get_top_moves(fen, n)  # type: ignore
+        output = json.dumps([{"move": m.mv, "score": m.score} for m in results])
+        logger.info(
+            "get_top_moves succeeded",
+            extra={"fen": fen, "n": n, "moves_returned": len(results)},
+        )
+        return output
+    except Exception as e:
+        logger.error(
+            "get_top_moves failed", extra={"fen": fen, "n": n, "error": str(e)}
+        )
+        raise
 
 
 @tool
@@ -54,8 +67,15 @@ def evaluate_position(fen: str) -> str:
     Returns:
         JSON object ``{"fen": "<FEN>", "evaluation": <float>}``.
     """
-    score = _engine.evaluate_position(fen) # type: ignore
-    return json.dumps({"fen": fen, "evaluation": score})
+    logger.info("evaluate_position called", extra={"fen": fen})
+    try:
+        score = _engine.evaluate_position(fen)  # type: ignore
+        output = json.dumps({"fen": fen, "evaluation": score})
+        logger.info("evaluate_position succeeded", extra={"fen": fen, "score": score})
+        return output
+    except Exception as e:
+        logger.error("evaluate_position failed", extra={"fen": fen, "error": str(e)})
+        raise
 
 
 @tool
@@ -75,8 +95,20 @@ def apply_moves(fen: str, moves: list[str]) -> str:
     Returns:
         JSON object ``{"resulting_fen": "<FEN>"}``.
     """
-    result_fen = _engine.apply_moves(fen, moves) # type: ignore
-    return json.dumps({"resulting_fen": result_fen})
+    logger.info("apply_moves called", extra={"fen": fen, "moves": moves})
+    try:
+        result_fen = _engine.apply_moves(fen, moves)  # type: ignore
+        output = json.dumps({"resulting_fen": result_fen})
+        logger.info(
+            "apply_moves succeeded",
+            extra={"fen": fen, "moves": moves, "resulting_fen": result_fen},
+        )
+        return output
+    except Exception as e:
+        logger.error(
+            "apply_moves failed", extra={"fen": fen, "moves": moves, "error": str(e)}
+        )
+        raise
 
 
 @tool
@@ -93,8 +125,16 @@ def get_legal_moves(fen: str) -> str:
     Returns:
         JSON list of UCI move strings (e.g. ``["e2e4", "d2d4", ...]``).
     """
-    moves = _engine.get_legal_moves(fen) # type: ignore
-    return json.dumps(moves)
+    logger.info("get_legal_moves called", extra={"fen": fen})
+    try:
+        moves = _engine.get_legal_moves(fen)  # type: ignore
+        logger.info(
+            "get_legal_moves succeeded", extra={"fen": fen, "move_count": len(moves)}
+        )
+        return json.dumps(moves)
+    except Exception as e:
+        logger.error("get_legal_moves failed", extra={"fen": fen, "error": str(e)})
+        raise
 
 
 @tool
@@ -114,13 +154,34 @@ def is_square_attacked(fen: str, square: str, by_color: str) -> str:
     Returns:
         JSON object ``{"square": "<sq>", "by": "<color>", "attacked": <bool>}``.
     """
-    attacked = _engine.is_square_attacked(fen, square, by_color) # type: ignore
-    return json.dumps({"square": square, "by": by_color, "attacked": attacked})
+    logger.info(
+        "is_square_attacked called",
+        extra={"fen": fen, "square": square, "by_color": by_color},
+    )
+    try:
+        attacked = _engine.is_square_attacked(fen, square, by_color)  # type: ignore
+        logger.info(
+            "is_square_attacked succeeded",
+            extra={
+                "fen": fen,
+                "square": square,
+                "by_color": by_color,
+                "attacked": attacked,
+            },
+        )
+        return json.dumps({"square": square, "by": by_color, "attacked": attacked})
+    except Exception as e:
+        logger.error(
+            "is_square_attacked failed",
+            extra={"fen": fen, "square": square, "by_color": by_color, "error": str(e)},
+        )
+        raise
 
 
 # ---------------------------------------------------------------------------
 # Tool implementation — RAG knowledge base
 # ---------------------------------------------------------------------------
+
 
 @tool
 def chess_knowledge(query: str) -> str:
