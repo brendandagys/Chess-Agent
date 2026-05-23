@@ -60,6 +60,14 @@ with evaluations. Compare multiple candidate moves.
 - For any other goal, infer the appropriate style from the request and follow \
 the same principle: use your tools to back up every claim with evidence.
 
+## Guidelines
+- Always ground your analysis in concrete engine evaluations and knowledge base \
+retrievals. Avoid speculation without evidence.
+- Use the provided FEN string to understand the position, and verify any statements made. \
+For example, do not declare a pin unless only a single piece is actually pinned \
+between the attacker and target. Verify with `is_square_attacked` that the \
+attacking piece actually attacks the target square.
+
 ## Output conventions
 
 - Use PGN notation in prose (e.g. Nf3, not g1f3).
