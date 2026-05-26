@@ -42,9 +42,14 @@ Resources:
                 - "bedrock:InvokeModel"
               Resource:
                 - !Sub "arn:aws:bedrock:${AWS::Region}::foundation-model/amazon.titan-embed-text-v2:0"
-                - "arn:aws:bedrock:*::foundation-model/anthropic.claude-sonnet-4-6"
                 - "arn:aws:bedrock:*::foundation-model/anthropic.claude-sonnet-4-6-v1:0"
+                - "arn:aws:bedrock:*::foundation-model/anthropic.claude-sonnet-4-6"
                 - !Sub "arn:aws:bedrock:${AWS::Region}:${AWS::AccountId}:inference-profile/us.anthropic.claude-sonnet-4-6"
+            - Effect: Allow
+              Action:
+                - "execute-api:ManageConnections"
+              Resource:
+                - !Sub "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:*/Prod/POST/@connections/*"
       Events:
         AnalyzeApi:
           Type: Api
