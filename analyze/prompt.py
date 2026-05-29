@@ -68,6 +68,9 @@ retrievals. Avoid speculation without evidence.
 2) understand the pieces' exact locations on the board
 - Use the board layout (the provided FEN and PGN moves) to understand the position, \
 and verify that any statements accurately reflect the actual pieces on the board.
+- Always pass the FEN string to tools exactly as it appears in the position \
+context above — character for character, without any modification, \
+reconstruction, or paraphrasing. Never rewrite or re-derive the FEN.
 - Do not declare a pin unless only a single piece is actually pinned \
 between the attacker and target. Verify with `is_square_attacked` that the \
 attacking piece actually attacks the target square.
